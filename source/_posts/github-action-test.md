@@ -5,22 +5,22 @@ tags:
 ---
 
 ## use GitHub Action to automatically deploy Hexo blogs 
-²½Öè 1: ×¼±¸ÄúµÄ GitHub ²Ö¿â
+æ­¥éª¤ 1: å‡†å¤‡æ‚¨çš„ GitHub ä»“åº“
 
-È·±£ÄúµÄ Hexo ²©¿ÍÔ´´úÂëÒÑ¾­ÍĞ¹ÜÔÚ GitHub ÉÏ¡£ÄúÓ¦¸ÃÓĞÁ½¸ö·ÖÖ§£ºÒ»¸öÓÃÓÚÔ´´úÂë£¨ÀıÈç main£©£¬Ò»¸öÓÃÓÚ²¿Êğ£¨Í¨³£ÊÇ gh-pages£©¡£
+ç¡®ä¿æ‚¨çš„ Hexo åšå®¢æºä»£ç å·²ç»æ‰˜ç®¡åœ¨ GitHub ä¸Šã€‚æ‚¨åº”è¯¥æœ‰ä¸¤ä¸ªåˆ†æ”¯ï¼šä¸€ä¸ªç”¨äºæºä»£ç ï¼ˆä¾‹å¦‚ mainï¼‰ï¼Œä¸€ä¸ªç”¨äºéƒ¨ç½²ï¼ˆé€šå¸¸æ˜¯ gh-pagesï¼‰ã€‚
 
-²½Öè 2: ÅäÖÃ GitHub Actions
+æ­¥éª¤ 2: é…ç½® GitHub Actions
 
-ÔÚÄúµÄ Hexo ÏîÄ¿¸ùÄ¿Â¼ÖĞ£¬´´½¨Ò»¸ö .github/workflows Ä¿Â¼£¨Èç¹û²»´æÔÚ£©¡£
-ÔÚ¸ÃÄ¿Â¼ÏÂ´´½¨Ò»¸öĞÂµÄ YAML ÎÄ¼ş£¬ÀıÈç hexo-deploy.yml¡£
-ÔÚ¸ÃÎÄ¼şÖĞ£¬±àĞ´ GitHub Actions ½Å±¾À´×Ô¶¯°²×°ÒÀÀµ¡¢¹¹½¨²©¿Í²¢²¿Êğµ½ GitHub Pages¡£ÒÔÏÂÊÇÒ»¸ö»ù±¾µÄÅäÖÃÊ¾Àı£º
+åœ¨æ‚¨çš„ Hexo é¡¹ç›®æ ¹ç›®å½•ä¸­ï¼Œåˆ›å»ºä¸€ä¸ª .github/workflows ç›®å½•ï¼ˆå¦‚æœä¸å­˜åœ¨ï¼‰ã€‚
+åœ¨è¯¥ç›®å½•ä¸‹åˆ›å»ºä¸€ä¸ªæ–°çš„ YAML æ–‡ä»¶ï¼Œä¾‹å¦‚ hexo-deploy.ymlã€‚
+åœ¨è¯¥æ–‡ä»¶ä¸­ï¼Œç¼–å†™ GitHub Actions è„šæœ¬æ¥è‡ªåŠ¨å®‰è£…ä¾èµ–ã€æ„å»ºåšå®¢å¹¶éƒ¨ç½²åˆ° GitHub Pagesã€‚ä»¥ä¸‹æ˜¯ä¸€ä¸ªåŸºæœ¬çš„é…ç½®ç¤ºä¾‹ï¼š
 ```
 name: Deploy Hexo Site
 
 on:
   push:
     branches:
-      - source  # µ±ÍÆËÍµ½ source ·ÖÖ§Ê±´¥·¢
+      - source  # å½“æ¨é€åˆ° source åˆ†æ”¯æ—¶è§¦å‘
 
 jobs:
   build-and-deploy:
@@ -32,7 +32,7 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v1
       with:
-        node-version: '12'  # Ö¸¶¨ Node.js µÄ°æ±¾
+        node-version: '12'  # æŒ‡å®š Node.js çš„ç‰ˆæœ¬
 
     - name: Cache Node modules
       uses: actions/cache@v1
@@ -52,13 +52,13 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public  # Ö¸¶¨ Hexo Éú³ÉµÄÎÄ¼ş¼Ğ
+        publish_dir: ./public  # æŒ‡å®š Hexo ç”Ÿæˆçš„æ–‡ä»¶å¤¹
 ```
-²½Öè 3: ÅäÖÃÃÜÔ¿
+æ­¥éª¤ 3: é…ç½®å¯†é’¥
 
-ÎŞĞèÊÖ¶¯ÅäÖÃ£¬GitHub Actions Ä¬ÈÏÊ¹ÓÃ secrets.GITHUB_TOKEN£¬ÕâÊÇ×Ô¶¯Éú³ÉµÄ¡£
+æ— éœ€æ‰‹åŠ¨é…ç½®ï¼ŒGitHub Actions é»˜è®¤ä½¿ç”¨ secrets.GITHUB_TOKENï¼Œè¿™æ˜¯è‡ªåŠ¨ç”Ÿæˆçš„ã€‚
 
-²½Öè 4: ÍÆËÍ¸ü¸Ä²¢×Ô¶¯²¿Êğ
+æ­¥éª¤ 4: æ¨é€æ›´æ”¹å¹¶è‡ªåŠ¨éƒ¨ç½²
 
-Ã¿´ÎÄúÍÆËÍµ½ main ·ÖÖ§Ê±£¬GitHub Actions ½«×Ô¶¯ÔËĞĞÕâ¸ö½Å±¾£¬¹¹½¨²¢²¿ÊğÄúµÄ²©¿Íµ½ gh-pages ·ÖÖ§¡£
+æ¯æ¬¡æ‚¨æ¨é€åˆ° main åˆ†æ”¯æ—¶ï¼ŒGitHub Actions å°†è‡ªåŠ¨è¿è¡Œè¿™ä¸ªè„šæœ¬ï¼Œæ„å»ºå¹¶éƒ¨ç½²æ‚¨çš„åšå®¢åˆ° gh-pages åˆ†æ”¯ã€‚
 
