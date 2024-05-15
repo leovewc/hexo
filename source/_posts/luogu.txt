@@ -1,0 +1,6 @@
+---
+title: AI_course
+date: 2023-09-22 16:11:52
+cover: OIP.jpeg
+tags:
+---
