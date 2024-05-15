@@ -1,0 +1,38 @@
+name: Deploy Hexo Site
+
+on:
+  push:
+    branches:
+      - main  # 当推送到 source 分支时触发
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12'  # 指定 Node.js 的版本
+
+    - name: Cache Node modules
+      uses: actions/cache@v1
+      with:
+        path: node_modules
+        key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.OS }}-node-
+          
+    - name: Install Dependencies
+      run: npm install
+      
+    - name: Generate
+      run: hexo generate
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public  # 指定 Hexo 生成的文件夹
