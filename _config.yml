@@ -149,6 +149,12 @@ minify:
     exclude:
       - '**/*.min.js'
 
+#hexo_autoprefixer
+autoprefixer:
+    exclude:
+      - '*.min.css'
+-   browsers:
+      - 'last 2 versions'
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
