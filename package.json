@@ -8,6 +8,7 @@
   "dependencies": {
     "@vercel/analytics": "^1.2.2",
     "hexo": "^6.3.0",
+    "hexo-algoliasearch": "^2.0.1",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
