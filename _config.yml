@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: leovewc
+title: Hexo
 subtitle: ''
 description: ''
 keywords:
@@ -206,7 +206,7 @@ symbols_count_time:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: shoka
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
