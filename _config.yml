@@ -173,26 +173,6 @@ algolia:
     - tags
     - title
 
-#feed
-feed:
-    limit: 20
-    order_by: "-date"
-    tag_dir: "tag"
-    category_dir: "category"
-    rss:
-        enable: true
-        template: "themes/theme/layout/_alternate/rss.ejs"
-        output: "rss.xml"
-    atom:
-        enable: true
-        template: "themes/theme/layout/_alternate/atom.ejs"
-        output: "atom.xml"
-    jsonFeed:
-        enable: true
-        template: "themes/theme/layout/_alternate/json.ejs"
-        output: "feed.json"
-
-
 #symbols_count_time
 symbols_count_time:
   symbols: true
