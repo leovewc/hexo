@@ -9,7 +9,7 @@ copyright: false
 - 站名： 無塵之地
 - 站长： 無塵
 - 地址： https://likun.vip
-- 标志： ![无尘](https://img2.imgtp.com/2024/05/17/d1fvmHJV.jpeg){height="100" width="120"}
+- 标志： ![无尘](https://img2.imgtp.com/2024/05/17/d1fvmHJV.jpeg){height="150" width="100"}
 - 简介： 无尘的编程笔记
 
 # 申请方法
