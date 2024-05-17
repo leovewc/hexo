@@ -169,11 +169,11 @@ autoprefixer:
 
 #algolia
 algolia:
-  appId: #Your appId
-  apiKey: #Your apiKey
-  adminApiKey: #Your adminApiKey
+  appId: CAU9D8QZU1 #Your appId
+  apiKey: d2c5b05cceb2810371a3829705a0c4d8 #Your apiKey
+  adminApiKey: 6ff6cda2c436c28bd1144a562872c725 #Your adminApiKey
   chunkSize: 5000
-  indexName: #"shoka"
+  indexName: shoka #"shoka"
   fields:
     - title #必须配置
     - path #必须配置
