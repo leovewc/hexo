@@ -8,6 +8,7 @@
   "dependencies": {
     "@vercel/analytics": "^1.2.2",
     "hexo": "^6.3.0",
+    "hexo-algoliasearch": "^2.0.1",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
@@ -17,10 +18,14 @@
     "hexo-renderer-multi-markdown-it": "^0.1.5",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
+    "hexo-symbols-count-time": "^0.7.1",
     "hexo-tag-aplayer": "^3.0.4"
   },
   "scripts": {
     "dev": "hexo server -p $PORT",
     "build": "hexo generate"
+  },
+  "devDependencies": {
+    "hexo-feed": "^1.1.2"
   }
 }
