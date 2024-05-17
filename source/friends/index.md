@@ -1,16 +1,16 @@
 ---
 title: 友情链接
 keywords: 友情链接
-description: 霜月琉璃的小伙伴们
+description: 无尘的小伙伴们
 copyright: false
 ---
 
 # 本站信息
-- 站名： 優萌初華
-- 站长： 霜月琉璃
-- 地址： https://shoka.lostyu.me
-- 标志： ![霜月琉璃](https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg){height="100" width="100"}
-- 简介： 琉璃的医学 & 编程笔记
+- 站名： 無塵之地
+- 站长： 無塵
+- 地址： https://likun.vip
+- 标志： ![无尘](https://github.com/leovewc/images/blob/main/gggggit/IMG_1135.jpeg){height="100" width="100"}
+- 简介： 无尘的编程笔记
 
 # 申请方法
 - 添加本站后，在本页留言，格式如下
