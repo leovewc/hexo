@@ -7,10 +7,17 @@ cover: https://w.wallhaven.cc/full/z8/wallhaven-z8jloo.jpg
 
 This is a image test post.
 
-![](/assets/wallpaper-2572384.jpg)
+![](/assets/70133000_p0_master1200.jpg)
 
-![Caption](/assets/wallpaper-2311325.jpg)
+![Caption](/103266680_p0_square1200.jpg)
 
-![](/assets/wallpaper-878514.jpg)
+![](/assets/109998710_p0_square1200.jpg)
 
 ![Small Picture](https://placehold.it/350x150.jpg)
+
+![Small Picture](https://placehold.it/350x150.jpg)
+
+![Small Picture](https://placehold.it/350x150.jpg)
+
+测试一下gif
+<center><img src="/assets/1234545667.gif" width = "" height = ""></center>
