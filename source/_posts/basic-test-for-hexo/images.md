@@ -26,4 +26,4 @@ This is a image test post.
 <center><img src="/assets/1234545667.gif" width = "" height = ""></center>
 ```
 测试失败，测试直接使用markdown:
-![this is test](/assets/1234545667.gif)
+![successful](/assets/1234545667.gif)
