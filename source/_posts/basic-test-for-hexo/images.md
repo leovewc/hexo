@@ -18,6 +18,7 @@ This is a image test post.
 ![Small Picture](https://w.wallhaven.cc/full/dp/wallhaven-dpr2mo.jpg)
 
 ![Small Picture](https://w.wallhaven.cc/full/lm/wallhaven-lmd95y.jpg)
+![](https://w.wallhaven.cc/full/p9/wallhaven-p9po6j.jpg)
 
 测试发现markdown只能使用本地文件或者图床，而标签抬头设置可以使用链接[gallery-post](https://hexo-b0q48fsw4-leovewcs-projects.vercel.app/2013/12/25/basic-test-for-hexo/gallery-post/)
 
