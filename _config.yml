@@ -68,11 +68,8 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  计算机科学: computer-science
-  Java: java
-  二进制杂谈: note
-  计算机程序设计（C++）-西安交通大学: course-1
-  零基础学Java语言-浙江大学-翁恺: course-1
+  参考模板: model
+  部署参考: note
   测试: basic-test-for-hexo
 
 
