@@ -53,11 +53,11 @@ post:
     author: 本文作者
     link: 本文链接
     license_title: 版权声明
-    license_content: "本站所有文章除特别声明外，均采用 %s 许可协议。转载请注明出处！"
-    nocopy: "<span class=\"red\">本页内容禁止转载！</span>"
+    license_content: "本站所有文章除特别声明外，均采用李坤是我爸爸 %s 许可协议。转载请注明出处！"
+    nocopy: "<span class=\"red\">本页内容禁止转载！别cao我(｡◕∀◕｡)</span>"
 
 footer:
-  powered: "基于 %s"
+  powered: "基于李坤的 %s"
   total_views: 总访问量
   total_visitors: 总访客量
 
@@ -107,7 +107,7 @@ symbol:
 
 reward:
   donate: 赞赏
-  text: 请我喝[茶]~(￣▽￣)~*
+  text: 请我喝[冰淇凌]~(￣▽￣)~*
   wechatpay: 微信支付
   alipay: 支付宝
   paypal: 贝宝
@@ -131,7 +131,7 @@ symbols_count_time:
   view: 次
 
 tips:
-  copyright: "复制成功，转载请遵守 %s 协议。"
+  copyright: "复制成功，转载请遵守李坤是我爸爸 %s 协议。"
   nocopy: "复制失败，本页内容禁止转载！"
 
 quiz:
