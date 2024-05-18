@@ -2,7 +2,7 @@ title: Images
 date: 2013-12-26 22:46:49
 categories:
 - [测试]
-cover: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+cover: https://w.wallhaven.cc/full/z8/wallhaven-z8jloo.jpg
 ---
 
 This is a image test post.
