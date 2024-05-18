@@ -9,15 +9,15 @@ This is a image test post.
 
 ![](/assets/70133000_p0_master1200.jpg)
 
-![Caption](/103266680_p0_square1200.jpg)
+![Caption](/assets/103266680_p0_square1200.jpg)
 
 ![](/assets/109998710_p0_square1200.jpg)
 
-![Small Picture](https://placehold.it/350x150.jpg)
+![Small Picture](https://w.wallhaven.cc/full/1p/wallhaven-1ppld1.jpg)
 
-![Small Picture](https://placehold.it/350x150.jpg)
+![Small Picture](https://w.wallhaven.cc/full/dp/wallhaven-dpr2mo.jpg)
 
-![Small Picture](https://placehold.it/350x150.jpg)
+![Small Picture](https://w.wallhaven.cc/full/lm/wallhaven-lmd95y.jpg)
 
 测试一下gif
 ```
