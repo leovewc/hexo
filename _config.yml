@@ -73,6 +73,9 @@ category_map:
   二进制杂谈: note
   计算机程序设计（C++）-西安交通大学: course-1
   零基础学Java语言-浙江大学-翁恺: course-1
+  测试: basic-test-for-hexo
+
+
 tag_map:
 
 # Metadata elements
