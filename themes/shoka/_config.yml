@@ -156,7 +156,7 @@ reward:
   account:
     wechatpay: /wechatpay.png
     alipay: /alipay.png
-    paypal: /paypal.png
+    # paypal: /paypal.png
 
 # TagCloud settings for tags page.
 tagcloud:
@@ -225,7 +225,7 @@ audio:
       - https://music.163.com/#/playlist?id=2031842656
 
 # random image api
-image_server: "https://acg.xydwz.cn/api/api.php"
+#image_server: "https://api.isoyu.com/bing_images.php"
 
 # Algolia Search
 # For more information: https://www.algolia.com
@@ -303,12 +303,3 @@ vendors:
     copy_tex: npm/katex@0.12.0/dist/contrib/copy-tex.min.js
     chart: npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js
 
-#mainpage category_map
-category_map:
-  计算机科学: computer-science
-  Java: java
-  C++: cpp
-  二进制杂谈: note
-  计算机程序设计（C++）-西安交通大学: course-1
-  零基础学Java语言-浙江大学-翁恺: course-1
-  面向对象程序设计-Java语言-浙江大学-翁恺: course-2
