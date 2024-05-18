@@ -9,21 +9,15 @@ photos:
 - https://w.wallhaven.cc/full/y8/wallhaven-y8q6vl.jpg
 - https://w.wallhaven.cc/full/l3/wallhaven-l3zmwy.jpg
 - https://w.wallhaven.cc/full/28/wallhaven-285e6x.png
-- assets/wallpaper-2572384.jpg
-- assets/wallpaper-2311325.jpg
-- assets/wallpaper-878514.jpg
-- http://placehold.it/350x150.jpg
+- assets/111135690_p0_custom1200.jpg
+- assets/110977743_p0_custom1200.jpg
+
 ---
 
 The test say i can just use google image address copy
 
-This post contains 4 photos:
-
-- Widescreen wallpaper
-- Portrait photo
-- Dual widescreen wallpaper
-- Small photo
+This post contains 8 photos:
 
 All photos should be displayed properly.
 
-*From [Wallbase.cc](http://wallbase.cc)*
+*From [https://wallhaven.cc/)*
