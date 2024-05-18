@@ -216,11 +216,3 @@ symbols_count_time:
   suffix: "mins."
   
 #category_map
-category_map:
-  计算机科学: computer-science
-  Java: java
-  C++: cpp
-  二进制杂谈: note
-  计算机程序设计（C++）-西安交通大学: course-1
-  零基础学Java语言-浙江大学-翁恺: course-1
-  面向对象程序设计-Java语言-浙江大学-翁恺: course-2
