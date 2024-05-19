@@ -35,6 +35,7 @@ This post contains 8 photos:
 
 All photos should be displayed properly.
 
+<script src="/js/random-gallery.js"></script>
 
 
 *From [https://wallhaven.cc/)*
