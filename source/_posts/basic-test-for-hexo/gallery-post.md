@@ -35,7 +35,7 @@ This post contains 8 photos:
 
 All photos should be displayed properly.
 
-<script src="/js/random-gallery.js"></script>
+<script src="/js/_app/random-gallery.js"></script>
 
 <img id="random-image" alt="Random Image" style="width: 100%; height: auto;">
 
@@ -48,6 +48,24 @@ All photos should be displayed properly.
       if (images.length > 0) {
         const randomIndex = Math.floor(Math.random() * images.length);
         document.getElementById('random-image').src = images[randomIndex].path;
+      }
+    } catch (error) {
+      console.error('Error fetching image:', error);
+    }
+  }
+
+  window.onload = fetchRandomImage;
+</script>
+
+<script>
+  async function fetchRandomImage() {
+    try {
+      const response = await fetch('/api/leancloud-proxy?cql=select%20nick%2C%20mail%2C%20comment%2C%20url%20from%20Comment%20where%20(rid%3D%27%27%20or%20rid%20is%20not%20exists)%20order%20by%20-createdAt%20limit%200%2C10');
+      const data = await response.json();
+      const images = data.results; // 假设返回数据在 `results` 字段中
+      if (images.length > 0) {
+        const randomIndex = Math.floor(Math.random() * images.length);
+        document.getElementById('random-image').src = images[randomIndex].url; // 假设图片 URL 在 `url` 字段中
       }
     } catch (error) {
       console.error('Error fetching image:', error);
