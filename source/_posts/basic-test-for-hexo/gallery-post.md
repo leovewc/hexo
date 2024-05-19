@@ -35,6 +35,6 @@ This post contains 8 photos:
 
 All photos should be displayed properly.
 
-{% randomgallery %}
+
 
 *From [https://wallhaven.cc/)*
