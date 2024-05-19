@@ -11,6 +11,9 @@ photos:
 - https://w.wallhaven.cc/full/28/wallhaven-285e6x.png
 - assets/111135690_p0_custom1200.jpg
 - assets/110977743_p0_custom1200.jpg
+- https://w.wallhaven.cc/full/d6/wallhaven-d62w6l.jpg
+- https://w.wallhaven.cc/full/z8/wallhaven-z8r8zg.png
+- https://w.wallhaven.cc/full/x8/wallhaven-x8my1d.png
 
 ---
 
