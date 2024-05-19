@@ -117,7 +117,7 @@ deploy:
 #markdown
 markdown:
   render: #   Ⱦ      
-    html: false #      HTML   ǩ
+    html: true #      HTML   ǩ
     xhtmlOut: true # ʹ   '/'    պϵ   ǩ        <br />    
     breaks: true # ת          '\n'    <br>  
     linkify: true #        URL    ı  Զ ת  Ϊ   ӡ 
