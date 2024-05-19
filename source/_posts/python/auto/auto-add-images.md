@@ -14,7 +14,7 @@ audio:
 ---
 [twemoji](https://twemoji-cheatsheet.vercel.app/)
 黃明志&三上悠亞
-我射了进去:Crossed Flags;
+我射了进去:Crossed Flags:
 但是没有关系
 你大声哭泣
 说我真的小气
