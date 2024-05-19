@@ -26,7 +26,7 @@ photos:
 - https://w.wallhaven.cc/full/vq/wallhaven-vq5jel.jpg
 - https://w.wallhaven.cc/full/85/wallhaven-85jor2.jpg
 - https://w.wallhaven.cc/full/l8/wallhaven-l8dg1r.jpg
-- 
+
 ---
 
 The test say i can just use google image address copy
