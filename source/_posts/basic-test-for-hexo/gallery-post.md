@@ -39,4 +39,22 @@ All photos should be displayed properly.
 
 <img id="random-image" alt="Random Image" style="width: 100%; height: auto;">
 
+<script>
+  async function fetchRandomImage() {
+    try {
+      const response = await fetch('/api/wallhaven-proxy');
+      const data = await response.json();
+      const images = data.data;
+      if (images.length > 0) {
+        const randomIndex = Math.floor(Math.random() * images.length);
+        document.getElementById('random-image').src = images[randomIndex].path;
+      }
+    } catch (error) {
+      console.error('Error fetching image:', error);
+    }
+  }
+
+  window.onload = fetchRandomImage;
+</script>
+
 *From [https://wallhaven.cc/)*
