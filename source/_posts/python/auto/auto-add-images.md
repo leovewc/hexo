@@ -12,4 +12,14 @@ audio:
   - https://music.163.com/#/song?id=2135625944
 
 ---
-阿斯蒂芬阿斯顿撒旦
+[twemoji](https://twemoji-cheatsheet.vercel.app/)
+黃明志&三上悠亞
+我射了进去:Crossed Flags;
+但是没有关系
+你大声哭泣
+说我真的小气
+我其实也想要全部给你
+但是你真的不如娃娃充气
+也许你可以给我打个飞机
+我的鸡鸡一定能够争气
+
