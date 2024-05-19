@@ -37,5 +37,6 @@ All photos should be displayed properly.
 
 <script src="/js/random-gallery.js"></script>
 
+<img id="random-image" alt="Random Image" style="width: 100%; height: auto;">
 
 *From [https://wallhaven.cc/)*
