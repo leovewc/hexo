@@ -71,6 +71,8 @@ category_map:
   参考模板: model
   部署参考: note
   测试: basic-test-for-hexo
+  python项目: python 
+  自动化: auto
 
 
 tag_map:
