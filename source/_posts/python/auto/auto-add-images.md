@@ -120,47 +120,50 @@ pyautogui.press()          #前面两个函数的封装，模拟完整的击键�
 pyautogui.keyDown('shift');pyautogui.press('4');pyautogui.keyUp('shift')
 #按下Shift，按下并释放4，然后释放Shift
 ```
-##键盘键字符串                        含义
-'a','b','c','A','C','1','2','3',    单个字符的键
+##键盘键字符串    
+字符串|含义
+--|--
+
+'a','b','c','A','C','1','2','3'|单个字符的键
 '!','@','#'等
 
-'enter'                             回车
+'enter'                             |回车
 
-‘esc'                              ESC键
+‘esc'                             | ESC键
 
-'shiftleft','shiftright'            左右Shift键
+'shiftleft','shiftright'            |左右Shift键
 
-'altleft','altright'                左右Alt键
+'altleft','altright'               | 左右Alt键
 
-'ctrlleft','ctrlright'              左右Ctrl键
+'ctrlleft','ctrlright'             | 左右Ctrl键
 
-‘tab'(or '\t')                     Tab键
+‘tab'(or '\t')                    | Tab键
 
-'backspace','delete'                Backspace键和Delete键
+'backspace','delete'               | Backspace键和Delete键
 
-'pageup','pagedown'                 Page Up 和Page Down键
+'pageup','pagedown'                 |Page Up 和Page Down键
 
-'home','end'                        Home键和End键
+'home','end'                       | Home键和End键
 
-'up','down','left','right'          上下左右箭头键
+'up','down','left','right'          |上下左右箭头键
 
-'f1','f2','f3'等                    F1至F12键
+'f1','f2','f3'等                    |F1至F12键
 
-'volumemute','volumeup',volumedown' 静音，放大音量和减小音量键
+'volumemute','volumeup',volumedown' |静音，放大音量和减小音量键
 
-'pause'                             暂停键
+'pause'                             |暂停键
 
-'capslock','numlock','scrolllock'   Caps Lock，Num Lock和 Scroll Lock键
+'capslock','numlock','scrolllock'   |Caps Lock，Num Lock和 Scroll Lock键
 
-'insert'                            Insert键
+'insert'                            |Insert键
 
-'printscreen'                       Prtsc或Print Screen键
+'printscreen'                       |Prtsc或Print Screen键
 
-'winleft','winright'                左右Win键(在windows上)
+'winleft','winright'                |左右Win键(在windows上)
 
-'command'                           Command键(在OS X上)
+'command'                          | Command键(在OS X上)
 
-'option'                            Option键(在OS X上)
+'option'                            |Option键(在OS X上)
 ##快捷键组合
 ```
 pyautogui.hotkey()           #接收多个字符串参数，顺序按下，再按相反的顺序释放
@@ -175,6 +178,66 @@ pyautogui.keyDown('c')
 pyautogui.keyUp('c')
 pyautogui.keyUp('ctrl')
 ```
+
+#一键打开
++++_post
+++
+```python
+import pyautogui
+import time
+
+pyautogui.position()
+time.sleep(2)
+print(pyautogui.position())
+pyautogui.moveTo(832, 1398)
+pyautogui.click()
+pyautogui.moveTo(80, 702)
+time.sleep(2)
+pyautogui.scroll(-500)
+pyautogui.moveTo(154, 727)
+pyautogui.click()
+```
+++
+++gallery-post
+```
+pyautogui.moveTo(832, 1398)
+pyautogui.click()
+pyautogui.moveTo(80, 702)
+time.sleep(2)
+pyautogui.scroll(-500)
+pyautogui.moveTo(154, 727)
+pyautogui.doubleClick()
+pyautogui.moveTo(574, 568)
+pyautogui.doubleClick()
+pyautogui.moveTo(594, 847)
+pyautogui.doubleClick()
+```
+++
+++copy imag link
+```
+import keyboard
+import pyautogui
+import time
+
+while True:
+    if keyboard.is_pressed('esc'):
+        print('完成工作啦')
+        break
+    if keyboard.is_pressed('z'):
+        x, y = pyautogui.position()
+        print(x, y)
+        while keyboard.is_pressed('z'):
+            pass
+        pyautogui.moveTo(x, y)
+        pyautogui.click()#click img
+        time.sleep(3)
+        pyautogui.moveTo(1058, 792)
+        pyautogui.rightClick()# rightclick
+        pyautogui.moveRel(10,-360)
+        pyautogui.click()#copy click
+```
+++
++++
 
 
 
