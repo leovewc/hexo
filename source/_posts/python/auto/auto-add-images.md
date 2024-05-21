@@ -104,7 +104,7 @@ click()
 typewrite('https://wwww.baidu.com')
 typewrite(['enter'])
 ```
-```输入字符串
+```python 输入字符串
 pyautogui.typewrite([键盘键字符串])      #除了单个字符串，还可以向typewrite()函数传递键字符串的列表
                                          #如 pyautogui.typewrite(['a','b','left','left','X','Y'])
                                          #按'a'键，'b'键，然后按左箭头两次，然后按'X'和'Y'
@@ -120,10 +120,10 @@ pyautogui.press()          #前面两个函数的封装，模拟完整的击键�
 pyautogui.keyDown('shift');pyautogui.press('4');pyautogui.keyUp('shift')
 #按下Shift，按下并释放4，然后释放Shift
 ```
-##键盘键字符串    
+
+## 键盘键字符串    
 字符串|含义
 --|--
-
 `'a','b','c','A','C','1','2','3''!','@','#'等`|单个字符的键
 `'enter'`|回车
 `‘esc'`| ESC键
@@ -144,8 +144,9 @@ pyautogui.keyDown('shift');pyautogui.press('4');pyautogui.keyUp('shift')
 `'winleft','winright' `|左右Win键(在windows上)
 `'command'`| Command键(在OS X上)
 `'option'`|Option键(在OS X上)
-##快捷键组合
-```
+
+## 快捷键组合
+```python 
 pyautogui.hotkey()           #接收多个字符串参数，顺序按下，再按相反的顺序释放
 
 #eg:
@@ -159,9 +160,9 @@ pyautogui.keyUp('c')
 pyautogui.keyUp('ctrl')
 ```
 
-#一键打开
-+++打开
-;;;_post
+# 一键打开
++++primary 打开
+;;;id3 _post
 ```python
 import pyautogui
 import time
@@ -178,7 +179,7 @@ pyautogui.moveTo(154, 727)
 pyautogui.click()
 ```
 ;;;
-;;;gallery-post
+;;;id3 gallery-post
 ```
 pyautogui.moveTo(832, 1398)
 pyautogui.click()
@@ -193,7 +194,7 @@ pyautogui.moveTo(594, 847)
 pyautogui.doubleClick()
 ```
 ;;;
-;;;copy imag link
+;;;id3 copy imag link
 ```
 import keyboard
 import pyautogui
@@ -217,7 +218,7 @@ while True:
         pyautogui.click()#copy click
 ```
 ;;;
-;;;complete
+;;;id3 complete
 ```
 import keyboard
 import pyautogui
@@ -252,7 +253,7 @@ while True:
         pyautogui.click()
         pyautogui.moveTo(x,y)
 ```
-;;;mouse click location
+;;;id3 mouse click location
 ```
 from pynput import mouse, keyboard
 
