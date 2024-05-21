@@ -237,7 +237,73 @@ while True:
         pyautogui.click()#copy click
 ```
 ++
+++complete
+```
+import keyboard
+import pyautogui
+import time
+
+while True:
+    if keyboard.is_pressed('esc'):
+        print('完成工作啦')
+        break
+    if keyboard.is_pressed('m'):
+        x, y = pyautogui.position()
+        print(x, y)
+        while keyboard.is_pressed('m'):
+            pass
+        pyautogui.moveTo(x, y)
+        pyautogui.click()  # click img
+        time.sleep(2)
+        pyautogui.moveTo(1295, 1221)
+
+        pyautogui.rightClick()  # rightclick
+        pyautogui.moveRel(151, -350)
+        pyautogui.click()  # copy clic
+
+        pyautogui.moveTo(1830, 1376)
+        pyautogui.click()
+        pyautogui.moveTo(1830, 1000)
+        pyautogui.typewrite(['enter'])
+        pyautogui.hotkey('ctrl', 'v')
+        pyautogui.moveTo(1830, 1376)
+        pyautogui.click()
+        pyautogui.moveTo(2139, 32)
+        pyautogui.click()
+        pyautogui.moveTo(x,y)
+```
+++mouse click location
+```
+from pynput import mouse, keyboard
+
+def on_click(x, y, button, pressed):
+    if button == mouse.Button.middle and pressed:
+        print(f"当前鼠标位置: x={x}, y={y}")
+
+def on_press(key):
+    if key == keyboard.Key.esc:
+        print("检测到 'esc' 键，退出脚本")
+        return False
+
+# 监听鼠标点击事件
+mouse_listener = mouse.Listener(on_click=on_click)
+mouse_listener.start()
+
+# 监听键盘按键事件
+keyboard_listener = keyboard.Listener(on_press=on_press)
+keyboard_listener.start()
+
+# 等待监听器结束
+mouse_listener.join()
+keyboard_listener.join()
+```
 +++
+
+
+
+
+
+
 
 
 
