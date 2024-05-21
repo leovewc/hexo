@@ -4,6 +4,7 @@ date: 2019-07-25 16:43:00
 categories:
 - [测试]
 tags:
+cover: https://w.wallhaven.cc/full/rr/wallhaven-rr2j87.jpg
 ---
 
 Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of https://highlightjs.org

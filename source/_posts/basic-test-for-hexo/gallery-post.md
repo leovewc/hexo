@@ -127,6 +127,9 @@ photos:
 - https://w.wallhaven.cc/full/ex/wallhaven-exq85w.jpg
 - https://w.wallhaven.cc/full/gp/wallhaven-gpk7e7.jpg
 - https://w.wallhaven.cc/full/o5/wallhaven-o5m3r5.jpg
+- https://w.wallhaven.cc/full/73/wallhaven-73kq69.jpg
+- https://w.wallhaven.cc/full/zy/wallhaven-zy2eyy.jpg
+- https://w.wallhaven.cc/full/jx/wallhaven-jxd9yp.jpg
 ---
 
 The test say i can just use google image address copy
