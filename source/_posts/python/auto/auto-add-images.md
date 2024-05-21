@@ -14,14 +14,14 @@ audio:
 ---
 [twemoji](https://twemoji-cheatsheet.vercel.app/)
 黃明志&三上悠亞
-我射了进去 💕
-但是没有关系🫦🪆🪆🔞
-你大声哭泣❤️‍🔥
-说我真的小气🧇
-我其实也想要全部给你🥵
-但是你真的不如娃娃充气⚕️
-也许你可以给我打个飞机🤣
-我的鸡鸡一定能够争气🀄️
+💕
+🫦🪆🪆🔞
+❤️‍🔥
+🧇
+🥵
+⚕️
+🤣
+🀄️
 
 # This is a Markdown Heading
 
@@ -124,46 +124,26 @@ pyautogui.keyDown('shift');pyautogui.press('4');pyautogui.keyUp('shift')
 字符串|含义
 --|--
 
-'a','b','c','A','C','1','2','3'|单个字符的键
-'!','@','#'等
-
-'enter'                             |回车
-
-‘esc'                             | ESC键
-
-'shiftleft','shiftright'            |左右Shift键
-
-'altleft','altright'               | 左右Alt键
-
-'ctrlleft','ctrlright'             | 左右Ctrl键
-
-‘tab'(or '\t')                    | Tab键
-
-'backspace','delete'               | Backspace键和Delete键
-
-'pageup','pagedown'                 |Page Up 和Page Down键
-
-'home','end'                       | Home键和End键
-
-'up','down','left','right'          |上下左右箭头键
-
-'f1','f2','f3'等                    |F1至F12键
-
-'volumemute','volumeup',volumedown' |静音，放大音量和减小音量键
-
-'pause'                             |暂停键
-
-'capslock','numlock','scrolllock'   |Caps Lock，Num Lock和 Scroll Lock键
-
-'insert'                            |Insert键
-
-'printscreen'                       |Prtsc或Print Screen键
-
-'winleft','winright'                |左右Win键(在windows上)
-
-'command'                          | Command键(在OS X上)
-
-'option'                            |Option键(在OS X上)
+`'a','b','c','A','C','1','2','3''!','@','#'等`|单个字符的键
+`'enter'`|回车
+`‘esc'`| ESC键
+`'shiftleft','shiftright'`|左右Shift键
+`'altleft','altright'`| 左右Alt键
+`'ctrlleft','ctrlright'`| 左右Ctrl键
+`‘tab'(or '\t')`| Tab键
+`'backspace','delete' `| Backspace键和Delete键
+`'pageup','pagedown'`|Page Up 和Page Down键
+`'home','end'`| Home键和End键
+`'up','down','left','right'`|上下左右箭头键
+`'f1','f2','f3'等 `|F1至F12键
+`'volumemute','volumeup',volumedown'`|静音，放大音量和减小音量键
+`'pause'`|暂停键
+`'capslock','numlock','scrolllock'`|Caps Lock，Num Lock和 Scroll Lock键
+`'insert'`|Insert键
+`'printscreen'`|Prtsc或Print Screen键
+`'winleft','winright' `|左右Win键(在windows上)
+`'command'`| Command键(在OS X上)
+`'option'`|Option键(在OS X上)
 ##快捷键组合
 ```
 pyautogui.hotkey()           #接收多个字符串参数，顺序按下，再按相反的顺序释放
@@ -180,8 +160,8 @@ pyautogui.keyUp('ctrl')
 ```
 
 #一键打开
-+++_post
-++
++++打开
+;;;_post
 ```python
 import pyautogui
 import time
@@ -197,8 +177,8 @@ pyautogui.scroll(-500)
 pyautogui.moveTo(154, 727)
 pyautogui.click()
 ```
-++
-++gallery-post
+;;;
+;;;gallery-post
 ```
 pyautogui.moveTo(832, 1398)
 pyautogui.click()
@@ -212,8 +192,8 @@ pyautogui.doubleClick()
 pyautogui.moveTo(594, 847)
 pyautogui.doubleClick()
 ```
-++
-++copy imag link
+;;;
+;;;copy imag link
 ```
 import keyboard
 import pyautogui
@@ -236,8 +216,8 @@ while True:
         pyautogui.moveRel(10,-360)
         pyautogui.click()#copy click
 ```
-++
-++complete
+;;;
+;;;complete
 ```
 import keyboard
 import pyautogui
@@ -272,7 +252,7 @@ while True:
         pyautogui.click()
         pyautogui.moveTo(x,y)
 ```
-++mouse click location
+;;;mouse click location
 ```
 from pynput import mouse, keyboard
 
@@ -297,6 +277,7 @@ keyboard_listener.start()
 mouse_listener.join()
 keyboard_listener.join()
 ```
+;;;
 +++
 
 
