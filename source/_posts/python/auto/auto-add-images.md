@@ -180,7 +180,7 @@ pyautogui.click()
 ```
 ;;;
 ;;;id3 gallery-post
-```
+```python
 pyautogui.moveTo(832, 1398)
 pyautogui.click()
 pyautogui.moveTo(80, 702)
@@ -195,7 +195,7 @@ pyautogui.doubleClick()
 ```
 ;;;
 ;;;id3 copy imag link
-```
+```python
 import keyboard
 import pyautogui
 import time
@@ -219,7 +219,7 @@ while True:
 ```
 ;;;
 ;;;id3 complete
-```
+```python
 import keyboard
 import pyautogui
 import time
@@ -254,7 +254,7 @@ while True:
         pyautogui.moveTo(x,y)
 ```
 ;;;id3 mouse click location
-```
+```python
 from pynput import mouse, keyboard
 
 def on_click(x, y, button, pressed):
