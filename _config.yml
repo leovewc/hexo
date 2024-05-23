@@ -75,6 +75,9 @@ category_map:
   自动化: auto
   日语: nihongguo
   能力等级考: jlpt
+  托福: TOEFL
+  programming elective: programming elective
+  24: 大二
 
 
 tag_map:
