@@ -181,11 +181,11 @@ autoprefixer:
 
 #algolia
 algolia:
-  appId: CAU9D8QZU1 #Your appId
-  apiKey: d2c5b05cceb2810371a3829705a0c4d8 #Your apiKey
-  adminApiKey: 6ff6cda2c436c28bd1144a562872c725 #Your adminApiKey
+  appId: Q2IA8K54X2 #Your appId
+  apiKey: d5f3e740f15b16839bd8aa91e1d3483e #Your apiKey
+  adminApiKey: 0f128a11151af81f2da92384212cd383 #Your adminApiKey
   chunkSize: 5000
-  indexName: shoka #"shoka"
+  indexName: likun #"shoka"
   fields:
     - title #必须配置
     - path #必须配置
