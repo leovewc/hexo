@@ -84,7 +84,7 @@ print(f'{a} * {b} = {a * b}')
 ;;;
 +++
 +++info 列表list[]
-;;;id1 基本操作
+;;;id2 基本操作
 ```python
 list1 = [1, 3, 5, 7, 100]
 print(list1) # [1, 3, 5, 7, 100]
@@ -112,7 +112,7 @@ for index, elem in enumerate(list1):
     print(index, elem)
 ```
 ;;;
-;;;id1 添加删除
+;;;id2 添加删除
 ```python
 fruits = ['grape', 'apple', 'strawberry', 'waxberry']
 fruits += ['pitaya', 'pear', 'mango']
@@ -129,7 +129,7 @@ fruits5 = fruits[::-1]
 print(fruits5) # ['mango', 'pear', 'pitaya', 'waxberry', 'strawberry', 'apple', 'grape']
 ```
 ;;;
-;;;id1 排序
+;;;id2 排序
 ```python
 list1 = ['orange', 'apple', 'zoo', 'internationalization', 'blueberry']
 list2 = sorted(list1)
@@ -147,7 +147,7 @@ list1.sort(reverse=True)
 print(list1)
 ```
 ;;;
-;;;id1 生成器()
+;;;id2 生成器()
 ```python
 f = [x for x in range(1, 10)]
 print(f)
@@ -170,7 +170,7 @@ for val in f:
 ;;;
 +++
 +++success 元组()
-;;;id1 定义与使用
+;;;id3 定义与使用
 Python中的元组与列表类似也是一种容器数据类型，可以用一个变量（对象）来存储多个数据
 不同之处在于元组的元素不能修改
 ```python
@@ -204,7 +204,7 @@ print(fruits_tuple)
 +++
 +++warning 集合set{}
 Python中的集合跟数学上的集合是一致的，不允许有重复元素，而且可以进行交集、并集、差集等运算。
-;;;id1 创建使用
+;;;id4 创建使用
 ```python
 # 创建集合的字面量语法
 set1 = {1, 2, 3, 3, 3, 2}
@@ -219,7 +219,7 @@ set4 = {num for num in range(1, 100) if num % 3 == 0 or num % 5 == 0}
 print(set4)
 ```
 ;;;
-;;;id1 添加和删除
+;;;id5 添加和删除
 ```python
 set1.add(4)
 set1.add(5)
@@ -232,7 +232,7 @@ print(set3.pop())
 print(set3)
 ```
 ;;;
-;;;id1 运算
+;;;id5 运算
 ```python
 # 集合的交集、并集、差集、对称差运算
 print(set1 & set2)
@@ -258,7 +258,7 @@ print(set1 >= set3)
 +++danger 字典{}
 字典是另一种可变容器模型，Python中的字典跟我们生活中使用的字典是一样一样的，它可以存储任意类型对象，
 与列表、集合不同的是字典的每个元素都是由一个键和一个值组成的“键值对”，键和值通过冒号分开。
-;;;id1 定义和使用
+;;;id6 定义和使用
 ```python
 # 创建字典的字面量语法
 scores = {'骆昊': 95, '白元芳': 78, '狄仁杰': 82}
