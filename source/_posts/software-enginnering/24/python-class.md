@@ -6,7 +6,7 @@ categories:
 - [软工，大二]
 ---
 # 常用数据结构
-+++primiry 字符串''
++++primary 字符串''
 ;;;id1 由零个或多个字符组组成的有限序列
 ```python
 s1 = 'hello, world!'
