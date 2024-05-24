@@ -3,7 +3,7 @@ title: python-class
 date: 2024-05-24 15:09:00
 tags:
 categories:
--[软工，大二]
+- [软工，大二]
 ---
 # 常用数据结构
 +++primiry 字符串''
