@@ -296,6 +296,271 @@ print(scores)
 ```
 ;;;
 +++
+# 嵌套
+
+# 循环
+## for-in 循环
+* range(101)：可以用来产生0到100范围的整数，需要注意的是取不到101。
+* range(1, 101)：可以用来产生1到100范围的整数，相当于前面是闭区间后面是开区间。
+* range(1, 101, 2)：可以用来产生1到100的奇数，其中2是步长，即每次数值递增的值。
+* range(100, 0, -2)：可以用来产生100到1的偶数，其中-2是步长，即每次数字递减的值。
+## while循环
+
+# 函数与模块
+# 变量作用域
+```python
+def foo():
+    b = 'hello' # local variable
+
+    # Python中可以在函数内部再定义函数
+    def bar():
+        c = True
+        print(a)
+        print(b)
+        print(c)
+
+    bar()
+    # print(c)  # NameError: name 'c' is not defined
+
+
+if __name__ == '__main__':
+    a = 100 # global variable
+    # print(b)  # NameError: name 'b' is not defined
+    foo()
+```
+不能通过函数调用修改全局变量 `a` 的值，例如：
+```python
+def foo():
+    a = 200
+    print(a)  # 200
+
+
+if __name__ == '__main__':
+    a = 100
+    foo()
+    print(a)  # 100
+```
+全局变量的`a`和局部变量的`a`不是一个东西，如果希望修改得用如下的代码:
+```python
+def foo():
+    global a
+    a = 200
+    print(a)  # 200
+
+
+if __name__ == '__main__':
+    a = 100
+    foo()
+    print(a)  # 200
+```
+
+# 面向对象编程
+## 定义类
+```python
+class Student(object):
+
+    # __init__是一个特殊方法用于在创建对象时进行初始化操作
+    # 通过这个方法我们可以为学生对象绑定name和age两个属性
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def study(self, course_name):
+        print('%s正在学习%s.' % (self.name, course_name))
+
+    # PEP 8要求标识符的名字用全小写多个单词用下划线连接
+    # 但是部分程序员和公司更倾向于使用驼峰命名法(驼峰标识)
+    def watch_movie(self):
+        if self.age < 18:
+            print('%s只能观看《熊出没》.' % self.name)
+        else:
+            print('%s正在观看岛国爱情大电影.' % self.name)
+def main():
+    # 创建学生对象并指定姓名和年龄
+    stu1 = Student('骆昊', 38)
+    # 给对象发study消息
+    stu1.study('Python程序设计')
+    # 给对象发watch_av消息
+    stu1.watch_movie()
+    stu2 = Student('王大锤', 15)
+    stu2.study('思想品德')
+    stu2.watch_movie()
+
+
+if __name__ == '__main__':
+    main()
+```
+## 访问可见性
+私有的属性用两个下划线开头：
+```python
+class Test:
+
+    def __init__(self, foo):
+        self.__foo = foo
+
+    def __bar(self):
+        print(self.__foo)
+        print('__bar')
+
+
+def main():
+    test = Test('hello')
+    # AttributeError: 'Test' object has no attribute '__bar'
+    test.__bar()
+    # AttributeError: 'Test' object has no attribute '__foo'
+    print(test.__foo)
+
+
+if __name__ == "__main__":
+    main()
+```
+这种其实可以通过一种更换名字的规则来访问：
+```python
+class Test:
+
+    def __init__(self, foo):
+        self.__foo = foo
+
+    def __bar(self):
+        print(self.__foo)
+        print('__bar')
+
+
+def main():
+    test = Test('hello')
+    test._Test__bar()
+    print(test._Test__foo)
+
+
+if __name__ == "__main__":
+    main()
+```
+## @property装饰器
+这是一种暗示属性是受保护的，不建议外部直接访问，
+但是想访问属性可以通过属性的 `getter`（访问器），和 `setter`（修改器）方法进行对应的操作
+```python
+class Person(object):
+
+    def __init__(self, name, age):
+        self._name = name
+        self._age = age
+
+    # 访问器 - getter方法
+    @property
+    def name(self):
+        return self._name
+
+    # 访问器 - getter方法
+    @property
+    def age(self):
+        return self._age
+
+    # 修改器 - setter方法
+    @age.setter
+    def age(self, age):
+        self._age = age
+
+    def play(self):
+        if self._age <= 16:
+            print('%s正在玩飞行棋.' % self._name)
+        else:
+            print('%s正在玩斗地主.' % self._name)
+
+
+def main():
+    person = Person('王大锤', 12)
+    person.play()
+    person.age = 22
+    person.play()
+    # person.name = '白元芳'  # AttributeError: can't set attribute
+
+
+if __name__ == '__main__':
+    main()
+```
+### __slots__
+python是一门[动态语言](https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E8%AF%AD%E8%A8%80)
+__slots__变量可以限定定义类型的对象只能绑定某些属性, __slots__只对当前类生效，对子类不起作用
+```python
+class Person(object):
+
+    # 限定Person对象只能绑定_name, _age和_gender属性
+    __slots__ = ('_name', '_age', '_gender')
+
+    def __init__(self, name, age):
+        self._name = name
+        self._age = age
+
+    @property
+    def name(self):
+        return self._name
+
+    @property
+    def age(self):
+        return self._age
+
+    @age.setter
+    def age(self, age):
+        self._age = age
+
+    def play(self):
+        if self._age <= 16:
+            print('%s正在玩飞行棋.' % self._name)
+        else:
+            print('%s正在玩斗地主.' % self._name)
+
+
+def main():
+    person = Person('王大锤', 22)
+    person.play()
+    person._gender = '男'
+    # AttributeError: 'Person' object has no attribute '_is_gay'
+    # person._is_gay = True
+```
+## 静态方法
+在类中，不属于对象的方法，而是属于类的方法，可以使用静态方法：
+```python
+from math import sqrt
+
+
+class Triangle(object):
+
+    def __init__(self, a, b, c):
+        self._a = a
+        self._b = b
+        self._c = c
+
+    @staticmethod
+    def is_valid(a, b, c): # 没有self了
+        return a + b > c and b + c > a and a + c > b
+
+    def perimeter(self):
+        return self._a + self._b + self._c
+
+    def area(self):
+        half = self.perimeter() / 2
+        return sqrt(half * (half - self._a) *
+                    (half - self._b) * (half - self._c))
+
+
+def main():
+    a, b, c = 3, 4, 5
+    # 静态方法和类方法都是通过给类发消息来调用的
+    if Triangle.is_valid(a, b, c):
+        t = Triangle(a, b, c)
+        print(t.perimeter())
+        # 也可以通过给类发消息来调用对象方法但是要传入接收消息的对象作为参数
+        # print(Triangle.perimeter(t))
+        print(t.area())
+        # print(Triangle.area(t))
+    else:
+        print('无法构成三角形.')
+
+
+if __name__ == '__main__':
+    main()
+```
+
 
 
 
