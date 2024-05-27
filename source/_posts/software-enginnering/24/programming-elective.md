@@ -1,7 +1,6 @@
 ---
 title: programming-elective
 date: 2024-05-23 08:12:48
-mermaid = true
 tags:
 categories:
 - [软工，大二]
