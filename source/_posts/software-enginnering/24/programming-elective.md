@@ -9,10 +9,8 @@ categories:
 # Bootstrap
 ```mermaid
 graph LR
-    A["Square Rect"] -- Link text --> B(("Circle"))
-    A --> C("Round Rect")
-    B --> D{Rhombus}
-    C --> D
+    A[开始] --> B[中间步骤]
+    B --> C[结束]
 
 ```
 ```mermaid
