@@ -126,7 +126,7 @@ markdown:
     xhtmlOut: true # ʹ   '/'    պϵ   ǩ        <br />    
     breaks: true # ת          '\n'    <br>  
     linkify: true #        URL    ı  Զ ת  Ϊ   ӡ 
-    typographer: 
+    typographer: true
     quotes: '        '
   plugins: # markdown-it        
     - plugin:
@@ -152,6 +152,7 @@ markdown:
         enable: true
         options:
           title: "  ֪    ̫    "
+     - markdown-it-mermaid
 
 #minify
 minify:

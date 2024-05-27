@@ -15,11 +15,13 @@
     "hexo-generator-index": "^3.0.0",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-markdown-it": "^7.1.1",
     "hexo-renderer-multi-markdown-it": "^0.1.5",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-symbols-count-time": "^0.7.1",
     "hexo-tag-aplayer": "^3.0.4",
+    "markdown-it-mermaid": "^0.2.5",
     "node-fetch": "^2.6.1"
   },
   "scripts": {
