@@ -121,18 +121,18 @@ deploy:
 
 #markdown
 markdown:
-  render: #   Ⱦ      
-    html: true #      HTML   ǩ
-    xhtmlOut: true # ʹ   '/'    պϵ   ǩ        <br />    
-    breaks: true # ת          '\n'    <br>  
-    linkify: true #        URL    ı  Զ ת  Ϊ   ӡ 
+  render:
+    html: true
+    xhtmlOut: true
+    breaks: true
+    linkify: true
     typographer: true
-    quotes: '        '
-  plugins: # markdown-it        
+    quotes: '“”‘’'
+  plugins:
     - plugin:
         name: markdown-it-toc-and-anchor
         enable: true
-        options: #     Ŀ¼ Լ ê  Ӧ õ  class    ƣ shoka           ó     
+        options:
           tocClassName: 'toc'
           anchorClassName: 'anchor'
     - plugin:
@@ -151,8 +151,11 @@ markdown:
         name: ./markdown-it-spoiler
         enable: true
         options:
-          title: "  ֪    ̫    "
-     - markdown-it-mermaid
+          title: "Uncover the text"
+    - plugin:
+        name: markdown-it-mermaid
+        enable: true
+
 
 #minify
 minify:
