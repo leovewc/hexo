@@ -230,3 +230,9 @@ symbols_count_time:
   awl: 4
   wpm: 275
   suffix: "mins."
+
+# Mermaid (markdwon to flow chart, seq chart, class chart ...)
+mermaid:
+  enable: true
+  # Available themes: default | dark | forest | neutral
+  theme: default
