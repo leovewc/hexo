@@ -7,8 +7,6 @@ categories:
 - [软工，大二]
 ---
 # Bootstrap
-
-
 ```mermaid
 graph LR
     A [Square Rect] -- Link text --> B ((Circle))
