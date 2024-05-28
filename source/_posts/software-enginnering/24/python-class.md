@@ -201,10 +201,18 @@ fruits_tuple = tuple(fruits_list)
 print(fruits_tuple)
 ```
 ;;;
+;;;id3 operations
+![operations](https://img2.imgtp.com/2024/05/28/Z211cduf.png)
+;;;
+;;;id3 travers
+![travers](https://img2.imgtp.com/2024/05/28/fYeb34rN.png)
+;;;
 +++
+
 +++warning 集合set{}
 Python中的集合跟数学上的集合是一致的，不允许有重复元素，而且可以进行交集、并集、差集等运算。
 ;;;id4 创建使用
+![create](https://img2.imgtp.com/2024/05/28/Lypy8mIe.png)
 ```python
 # 创建集合的字面量语法
 set1 = {1, 2, 3, 3, 3, 2}
@@ -220,6 +228,8 @@ print(set4)
 ```
 ;;;
 ;;;id4 添加和删除
+You can add an element into set using add() function `set.add(5)` and remove() `set.remove(5)` it will insert anywhere
+
 ```python
 set1.add(4)
 set1.add(5)
@@ -232,7 +242,7 @@ print(set3.pop())
 print(set3)
 ```
 ;;;
-;;;id4 运算
+;;;id4 运算 10
 ```python
 # 集合的交集、并集、差集、对称差运算
 print(set1 & set2)
@@ -255,10 +265,10 @@ print(set1 >= set3)
 ```
 ;;;
 +++
-+++danger 字典{}
++++danger 字典dictionaries{}
 字典是另一种可变容器模型，Python中的字典跟我们生活中使用的字典是一样一样的，它可以存储任意类型对象，
 与列表、集合不同的是字典的每个元素都是由一个键和一个值组成的“键值对”，键和值通过冒号分开。
-;;;id5 定义和使用
+;;;id5 定义和使用 13
 ```python
 # 创建字典的字面量语法
 scores = {'骆昊': 95, '白元芳': 78, '狄仁杰': 82}
@@ -295,7 +305,14 @@ scores.clear()
 print(scores)
 ```
 ;;;
+;;;id5 operation
+![](https://img2.imgtp.com/2024/05/28/8aT0hot2.png)
+![屏幕截图 2024-05-28 102249.png](https://img2.imgtp.com/2024/05/28/8aT0hot2.png)
+![屏幕截图 2024-05-28 102425.png](https://img2.imgtp.com/2024/05/28/kfuT6JjN.png)
+;;;
 +++
+## list vs tuple vs set vs dictionary
+![屏幕截图 2024-05-28 102456.png](https://img2.imgtp.com/2024/05/28/RVOEWxAO.png)
 # 嵌套
 
 # 循环
