@@ -707,11 +707,11 @@ different string can use +
 
 太简单了懒得写了
 
-### 5
+## 5
 
-#### FUNCTION
+### FUNCTION
 
-##### arguments
+#### arguments
 
 1. position arguments
 2. keyword arguments :     `sum(y=1, x=10)`
@@ -729,6 +729,229 @@ different string can use +
     printing(1,2,3,4,5)
     printing("as","sd","qe","eq")
 ```
+
+### exercis
+
+![](0f7ecb2aff3646bd95cd8e98c0159b00.jpg)
+
+
+
+## 6
+
+## 7
+
+### anonymous object
+
+create an object without explicitly assigning it to a variable
+
+`print("Area is", Circle(5).getArea())`
+
+### self
+```python
+    class Myclass:
+          def __init__(self. t):
+              self.x =t
+          def m1(self):
+              self.x =5
+              self.y =7
+          def m2(self):
+              self.x =7
+              self.y =4
+              z =6             #local varailbe
+```
+### Immutable / Mutable Objects
+
+number, string are immutable, 对象可以被改变`e.salary = 10000`
+
+### data hiding
+```python
+    class Circle:
+          def __init__(self, r):
+              self.__r = r
+          def setRadius(self,r):
+              self.__r =r
+          def getRadius(self):
+              return self.__r
+          def getArea(self):
+              return self.__r *self.__r *math.pi
+    
+    c1 = Circle(3)
+    x=c1.getArea()
+    print(c1.getRedius())
+    print(c1.r)                   #error
+```
+## 8
+
+### list
+
+`len(list)`
+
+`max(list)`
+
+`min(list)`
+
+`sum(list)`
+
+`shuffle(list)` 随机打乱
+
+
+
+list范围是[0,len(list)-1],所以下面这个会报错：out of range:
+```python
+    list1 = [1,2,3,4,5,6,7,8,9]
+    i = 0
+    while i <= len(list1):
+        print(list1[i])
+        i=i+1
+```
+
+
+list 切片
+```python
+    print(list1[-2 : -3])   #[]
+    print(list11[1: 1])     #[]
+```
+
+
+`in/ not in`
+
+
+
+![](260e90d7460248d99cc7a00c9a6d62b8.jpg)
+
+
+
+`items = "Jane John Peter Susan".split()`
+
+`items = "09/20/2012".split("/")`
+
+
+
+inputting list:
+```python
+    s=input("enter")
+    items =s.split()
+    lst= [x for x in items]
+```
+
+
+注意这个是复制指针，list2变了1也要变`list2 = list1`
+
+`print(id(list))`这个看地址
+
+
+
+如果只想复制数据：
+```python
+    list1 = [1,2,3,4,5,6,7,8,9]
+    list2 = [x for x in list1]     #法1
+    list3 = [] + list1        #法2
+```
+
+
+传到function里，list会改变数据，number不会改变:
+```python
+    def fun(num, lst):
+        num =1111
+        lst[0] = 2222
+    
+    x=5
+    list1=[1,2,3,4,5]
+    fun(x,list1)
+    print(list1)    #[2222,2,3,4,5]
+    print(x)           #5
+```
+
+
+`list.sort()`是原地排序，不会返回一个新的。同类型才能排序。ASCOII排序,意味着大写永远在前面，如果要除开大小写影响传入`str.lower`
+
+
+
+![](2f11d5af9e2a483cbe8b3656885c5990.jpg)
+
+
+
+
+
+逆天随机换顺序：
+```python
+    import random
+    
+    matrix = [[3, 5, 1, 4], [3, 1, 2, 7], [8, 0, 8, 2]]
+    
+    for row in range(len(matrix)):
+        for col in range(len(matrix[row])):
+            i = random.randint(0, len(matrix) - 1)
+            j = random.randint(0, len(matrix[row]) - 1)
+            matrix[row][col], matrix[i][j] = matrix[i][j], matrix[row][col]
+    
+    print(matrix)
+```    
+
+## 9
+
+### tuple
+
+不能改
+
+![](38b9cda1fed743de81e586da226d4843.jpg)
+
+### sets
+
+`set1=set("asd")`     #{'a', 's', 'd'}
+
+集合用的是`add``remove``issubset``isuperset`也可以比较符号
+
+`symmetric_difference()`是异或 == `^`
+
+### dictionaries
+
+`update`
+
+`popitem` 弹出最后并删除
+
+`pop('A')``clear`
+
+`del dict['A']`
+
+![](bac0ef7074f0463995b1a142b58359fa.jpg)![](542c956f0c9c4663974ffcd122e9ab2b.jpg)![](97c0302627e742e1a475d5c34dc93215.jpg)
+
+还能连环使用
+
+![](ce39975b1f7a49f1a65c6c262be51d81.jpg)
+
+字典需要`.items()`遍历
+```python
+    # 遍历键
+    for key in my_dict:
+        print(key)
+    
+    # 遍历值
+    for value in my_dict.values():
+        print(value)
+    
+    # 遍历键值对
+    for key, value in my_dict.items():
+        print(f"{key}: {value}")
+```  
+    
+
+
+```python
+     my_dict[[1, 2, 3]] = "List"  #不行，因为不能用可变的做键
+    my_dict[(1, 2, 3)] = "Tuple" #可以，因为元组不可变
+```    
+
+排序：
+```python
+    my_dict = {"b": 2, "a": 1, "c": 3}
+    sorted_keys = sorted(my_dict.keys())
+    sorted_dict = {k: my_dict[k] for k in sorted_keys}
+    print(sorted_dict)  # 输出: {'a': 1, 'b': 2, 'c': 3}
+```    
+
+
+
 
 
 
