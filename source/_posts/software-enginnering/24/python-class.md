@@ -869,7 +869,11 @@ inputting list:
 
 ![](2f11d5af9e2a483cbe8b3656885c5990.jpg)
 
-
+%% list3=list1+list2
+%% list3=list1.extend(list2)
+%% 这两个有什么区别:
+%% 
+%% extend不返回只改变，所以list3=None
 
 
 
@@ -898,7 +902,7 @@ inputting list:
 
 ### sets
 
-`set1=set("asd")`     #{'a', 's', 'd'}
+`set1=set("asd")     #{'a', 's', 'd'}`
 
 集合用的是`add``remove``issubset``isuperset`也可以比较符号
 
@@ -913,6 +917,11 @@ inputting list:
 `pop('A')``clear`
 
 `del dict['A']`
+```python
+del tinydict['Name'] # 删除键 'Name'
+tinydict.clear()     # 清空字典
+del tinydict         # 删除字典
+```
 
 ![](bac0ef7074f0463995b1a142b58359fa.jpg)![](542c956f0c9c4663974ffcd122e9ab2b.jpg)![](97c0302627e742e1a475d5c34dc93215.jpg)
 
@@ -939,7 +948,7 @@ inputting list:
 
 ```python
      my_dict[[1, 2, 3]] = "List"  #不行，因为不能用可变的做键
-    my_dict[(1, 2, 3)] = "Tuple" #可以，因为元组不可变
+    my_dict[(1, 2, 3)] = "Tuple" #可以，因为元组不可变,string can
 ```    
 
 排序：
