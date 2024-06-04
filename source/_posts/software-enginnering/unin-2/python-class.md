@@ -732,7 +732,7 @@ different string can use +
 
 ### exercis
 
-![](0f7ecb2aff3646bd95cd8e98c0159b00.jpg)
+![](https://ibb.co/4m9CPsZ)
 
 
 
@@ -817,7 +817,7 @@ list 切片
 
 
 
-![](260e90d7460248d99cc7a00c9a6d62b8.jpg)
+![](https://ibb.co/6vsVg71)
 
 
 
@@ -867,7 +867,7 @@ inputting list:
 
 
 
-![](2f11d5af9e2a483cbe8b3656885c5990.jpg)
+![](https://ibb.co/XYXYmJf)
 
 %% list3=list1+list2
 %% list3=list1.extend(list2)
@@ -898,7 +898,7 @@ inputting list:
 
 不能改
 
-![](38b9cda1fed743de81e586da226d4843.jpg)
+![](https://ibb.co/84h4w5R)
 
 ### sets
 
@@ -923,11 +923,11 @@ tinydict.clear()     # 清空字典
 del tinydict         # 删除字典
 ```
 
-![](bac0ef7074f0463995b1a142b58359fa.jpg)![](542c956f0c9c4663974ffcd122e9ab2b.jpg)![](97c0302627e742e1a475d5c34dc93215.jpg)
+![](https://ibb.co/D4m7wsk)![](https://ibb.co/Pzc4THp)![](https://ibb.co/j5FZ3gZ)
 
 还能连环使用
 
-![](ce39975b1f7a49f1a65c6c262be51d81.jpg)
+![](https://ibb.co/CsmzL1x)
 
 字典需要`.items()`遍历
 ```python
