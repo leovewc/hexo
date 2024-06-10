@@ -1219,9 +1219,15 @@ Markdown完全兼容超文本标记语言，这也是它广为流行的原因之
 <iframe height = '600' src="//player.bilibili.com/player.html?aid=ca9f716308a47df5608c11a05c14f71a" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 ```
 
+```
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=53851218&bvid=BV1j4411W7F7&cid=94198756&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+```
 
+```
+<iframe height = '600' src="//player.bilibili.com/player.html?isOutside=true&aid=53851218&bvid=BV1j4411W7F7&cid=94198756&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+```
 
-<iframe height = '600' src="//player.bilibili.com/player.html?isOutside=true&aid=53851218&bvid=BV1j4411W7F7&cid=94198756&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" autoplay = "false" ></iframe>
+<iframe width="1920" height="1080" src="//player.bilibili.com/player.html?isOutside=true&aid=53851218&bvid=BV1j4411W7F7&cid=94198756&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 顺便，在B站视频分享栏的下拉菜单中可以找到“内嵌代码”，可以直接复制使用！！！**哔哩哔哩\* (゜-゜)つロ 干杯~**
 
