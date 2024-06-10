@@ -188,10 +188,6 @@ $$
 \sideset{^{左上}_{左下}}{^{右上}_{右下}}{中}
 $$
 
-#### 日语
-
-漢かん字じ<ruby>漢<rt>かん</rt>字<rt>じ</rt></ruby>日本にほん语ご<ruby>日本<rt>にほん</rt>语<rt>ご</rt></ruby>
-
 #### 矩阵、排列（对齐）
 
 在书写公式的时候，我们通过排版使形式美观，内容分明。
@@ -1166,7 +1162,25 @@ Markdown中是使用 ![L^AT_EX](https://math.jianshu.com/math?formula=L%5EAT_EX)
 
 使用格式，例如： `X^2^` 会显示如同 ![X^2](https://math.jianshu.com/math?formula=X%5E2) 。
 
+### 日语
 
+漢かん字じ漢かん字じ<ruby>漢<rt>かん</rt>字<rt>じ</rt></ruby>日本にほん语ご日本にほん语ご<ruby>日本<rt>にほん</rt>语<rt>ご</rt></ruby>
+
+#### 我的shoka
+
+| `{取り返す^とりかえす}`        | {取り返す^とりかえす}        |
+| ------------------------------ | ---------------------------- |
+| `{可愛い犬^か+わい・い・いぬ}` | {可愛い犬^か+わい・い・いぬ} |
+| `{可愛い犬^か・わい・いいぬ}`  | {可愛い犬^か・わい・いいぬ}  |
+| `{アクセラレータ^accelerator}` | {アクセラレータ^accelerator} |
+| `{accelerator^アクセラレータ}` | {accelerator^アクセラレータ} |
+| `{食べる^たべる}`              | {食べる^たべる}              |
+| `{食べる^=たべる}`             | {食べる^=たべる}             |
+| `{あいうえお^*}`               | {あいうえお^*}               |
+| `{あいうえお^*❤}`              | {あいうえお^*❤}              |
+| `{常用账号^contact}`           | {常用账号^contact}           |
+
+![image-20240610202612194](https://raw.githubusercontent.com/leovewc/images/main/image-20240610202612194.png)
 
 ### 高亮
 
@@ -1177,6 +1191,55 @@ Markdown中是使用 ![L^AT_EX](https://math.jianshu.com/math?formula=L%5EAT_EX)
 ==文本高亮==，__加粗__，*斜体*，==***斜体高亮加粗***==，~~删除线~~，<u>下划线</u>。`<font>`标签被我用于一款小标签样式（[小康](https://www.antmoe.com/posts/3b43914f/)）：<font>红色小标签</font>，可以通过设置`background-color`属性控制背景色，如：<font style="background-color:#8bc34a">绿色小标签</font>，为了方便，我提供了五种预定义的颜色（包括前面的红色、<span alt="glow">绿色</span>）：<font title="blue">蓝色小标签</font>、<font title="yellow">黄色小标签</font>、<font title="gray">灰色小标签</font>。一些强调型格式：<span alt="underline">下划线</span>、<span alt="emp">着重号</span>、<span alt="wavy">波浪线</span>。其他：<span alt="hide">隐藏文本</span>，<span alt="hollow">空心字</span>，<span alt="blink">字体闪烁</span>
 
 <span alt="rainbow">彩虹变换字体特效</span>（嫖自[黑石大佬](https://www.heson10.com/posts/21347.html)🙇‍♀️），<span alt="modern">欢迎光临</span>（嫖自[QinXS](https://7bxing.com/friends/)🙇‍♀️），<span alt="shake">抖音字效</span>（嫖自[NyKee](https://www.nykee.cn/)🙇‍♀️）
+
+#### 我的shoka支持的
+
+```markdown
+++波浪线++{.wavy}
+++着重点++{.dot}
+++紫色下划线++{.primary}
+++绿色波浪线++{.wavy .success}
+++黄色着重点++{.dot .warning}
+~~删除线~~
+~~红色删除线~~{.danger}
+==荧光高亮==
+[赤橙黄绿青蓝紫]{.rainbow}
+[红色]{.red}
+[粉色]{.pink}
+[橙色]{.orange}
+[黄色]{.yellow}
+[绿色]{.green}
+[靛青]{.aqua}
+[蓝色]{.blue}
+[紫色]{.purple}
+[灰色]{.grey}
+快捷键 [Ctrl]{.kbd} + [C]{.kbd .red}
+H~2~0
+29^th^
+```
+
+++下划线++
+++波浪线++{.wavy}
+++着重点++{.dot}
+++紫色下划线++{.primary}
+++绿色波浪线++{.wavy .success}
+++黄色着重点++{.dot .warning}
+~~删除线~~
+~~红色删除线~~{.danger}
+==荧光高亮==
+[赤橙黄绿青蓝紫]{.rainbow}
+[红色]{.red}
+[粉色]{.pink}
+[橙色]{.orange}
+[黄色]{.yellow}
+[绿色]{.green}
+[靛青]{.aqua}
+[蓝色]{.blue}
+[紫色]{.purple}
+[灰色]{.grey}
+快捷键 [Ctrl]{.kbd} + [C]{.kbd .red}
+H~2~0
+29^th^
 
 ## HTML
 
@@ -1217,14 +1280,6 @@ Markdown完全兼容超文本标记语言，这也是它广为流行的原因之
 
 ```markdown
 <iframe height = '600' src="//player.bilibili.com/player.html?aid=ca9f716308a47df5608c11a05c14f71a" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-```
-
-```
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=53851218&bvid=BV1j4411W7F7&cid=94198756&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-```
-
-```
-<iframe height = '600' src="//player.bilibili.com/player.html?isOutside=true&aid=53851218&bvid=BV1j4411W7F7&cid=94198756&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 ```
 
 <iframe width="1920" height="1080" src="//player.bilibili.com/player.html?isOutside=true&aid=53851218&bvid=BV1j4411W7F7&cid=94198756&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
