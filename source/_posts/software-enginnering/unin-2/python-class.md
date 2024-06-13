@@ -890,7 +890,7 @@ inputting list:
             matrix[row][col], matrix[i][j] = matrix[i][j], matrix[row][col]
     
     print(matrix)
-```    
+```
 
 ## 9
 
@@ -942,14 +942,14 @@ del tinydict         # 删除字典
     # 遍历键值对
     for key, value in my_dict.items():
         print(f"{key}: {value}")
-```  
-    
+```
+
 
 
 ```python
      my_dict[[1, 2, 3]] = "List"  #不行，因为不能用可变的做键
     my_dict[(1, 2, 3)] = "Tuple" #可以，因为元组不可变,string can
-```    
+```
 
 排序：
 ```python
@@ -957,7 +957,17 @@ del tinydict         # 删除字典
     sorted_keys = sorted(my_dict.keys())
     sorted_dict = {k: my_dict[k] for k in sorted_keys}
     print(sorted_dict)  # 输出: {'a': 1, 'b': 2, 'c': 3}
-```    
+```
+
+# Numpy
+
+## copy
+
+| a=np.array([1, 2], [3, 4]) |      |
+| -------------------------- | ---- |
+| `b=a`                      | 指针 |
+| `b=a.copy()`               | 带值 |
+| `b=a.view()`               | 指针 |
 
 
 
