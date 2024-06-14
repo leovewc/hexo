@@ -1216,6 +1216,14 @@ Markdown中是使用 ![L^AT_EX](https://math.jianshu.com/math?formula=L%5EAT_EX)
 快捷键 [Ctrl]{.kbd} + [C]{.kbd .red}
 H~2~0
 29^th^
+!! 黑幕黑幕黑幕黑幕黑幕黑幕！！： 鼠标滑过显示内容
+!! 模糊模糊模糊模糊模糊模糊！！{.bulr} ： 选中文字显示内容
+[default]{.label}
+[primary]{.label .primary}
+[info]{.label .info}
+[:heavy_check_mark:success]{.label .success}
+[warning]{.label .warning}
+[:broken_heart:danger]{.label .danger}
 ```
 
 ++下划线++
@@ -1240,6 +1248,55 @@ H~2~0
 快捷键 [Ctrl]{.kbd} + [C]{.kbd .red}
 H~2~0
 29^th^
+
+!! 黑幕黑幕黑幕黑幕黑幕黑幕！！： 鼠标滑过显示内容
+!! 模糊模糊模糊模糊模糊模糊！！{.bulr} ： 选中文字显示内容
+
+[default]{.label} 
+
+[primary]{.label .primary} 
+
+[info]{.label .info} 
+
+[:heavy_check_mark:success]{.label .success} 
+
+[warning]{.label .warning} 
+
+[:broken_heart:danger]{.label .danger}
+
+##### 练习题
+
+```
+
+```
+
+#####  note 提醒块
+
+| 开始行 | `:::[风格颜色]` |
+| ------ | --------------- |
+| 结束行 | `:::`           |
+
+有 default, primary, info, success, warning, danger, danger no-icon
+
+##### tab
+
+| 开始行 | `;;;[同一ID] [标签名称]` |
+| ------ | ------------------------ |
+| 结束行 | `;;;`                    |
+
+##### collapse 折叠块
+
+| 开始行 | `+++[风格颜色] [标题文字]` |
+| ------ | -------------------------- |
+| 结束行 | `+++`                      |
+
+primary, info, success, warning, danger
+
+##### furigana 文字注音
+
+[显示说明看这里](https://www.npmjs.com/package/furigana-markdown-it#quick-usage)
+
+![image-20240614220050119](https://raw.githubusercontent.com/leovewc/images/main/image-20240614220050119.png)
 
 ## HTML
 
