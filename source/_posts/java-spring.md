@@ -422,6 +422,8 @@ Beans.xml
 
 ## 自动装配beans
 
+#### byname
+
 | 模式                                                         | 描述                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | no                                                           | 这是默认的设置，它意味着没有自动装配，你应该使用显式的bean引用来连线。你不用为了连线做特殊的事。在依赖注入章节你已经看到这个了。 |
@@ -528,6 +530,58 @@ public class MainApp {
 
    <!-- Definition for spellChecker bean -->
    <bean id="spellChecker" class="com.tutorialspoint.SpellChecker">
+   </bean>
+
+</beans>
+```
+
+#### bytype
+
+但是，如果你要使用自动装配` “byType”`，那么你的 `XML `配置文件将成为如下：
+
+```java
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <!-- Definition for textEditor bean -->
+   <bean id="textEditor" class="com.tutorialspoint.TextEditor" 
+      autowire="byType">
+      <property name="name" value="Generic Text Editor" />
+   </bean>
+
+   <!-- Definition for spellChecker bean -->
+   <bean id="SpellChecker" class="com.tutorialspoint.SpellChecker">
+   </bean>
+
+</beans>
+```
+
+#### by 构造函数
+
+先把TextEditor写成构造函数形式
+
+如果你要使用自动装配 “by constructor”，那么你的 XML 配置文件将成为如下：
+
+```java
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <!-- Definition for textEditor bean -->
+   <bean id="textEditor" class="com.tutorialspoint.TextEditor" 
+      autowire="constructor">
+      <constructor-arg value="Generic Text Editor"/>
+   </bean>
+
+   <!-- Definition for spellChecker bean -->
+   <bean id="SpellChecker" class="com.tutorialspoint.SpellChecker">
    </bean>
 
 </beans>
