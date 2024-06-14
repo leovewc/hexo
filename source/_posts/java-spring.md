@@ -419,3 +419,116 @@ Beans.xml
 ```
 
 相当于 Java 代码：`exampleBean.setEmail(null)`
+
+## 自动装配beans
+
+| 模式                                                         | 描述                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| no                                                           | 这是默认的设置，它意味着没有自动装配，你应该使用显式的bean引用来连线。你不用为了连线做特殊的事。在依赖注入章节你已经看到这个了。 |
+| [byName](https://www.w3cschool.cn/wkspring/fwdz1mmb.html)    | 由属性名自动装配。Spring 容器看到在 XML 配置文件中 bean 的自动装配的属性设置为 byName。然后尝试匹配，并且将它的属性与在配置文件中被定义为相同名称的 beans 的属性进行连接。 |
+| [byType](https://www.w3cschool.cn/wkspring/8dhy1mmd.html)    | 由属性数据类型自动装配。Spring 容器看到在 XML 配置文件中 bean 的自动装配的属性设置为 byType。然后如果它的**类型**匹配配置文件中的一个确切的 bean 名称，它将尝试匹配和连接属性的类型。如果存在不止一个这样的 bean，则一个致命的异常将会被抛出。 |
+| [constructor](https://www.w3cschool.cn/wkspring/jtlb1mmf.html) | 类似于 byType，但该类型适用于构造函数参数类型。如果在容器中没有一个构造函数参数类型的 bean，则一个致命错误将会发生。 |
+| autodetect（3.0版本不支持）                                  | Spring首先尝试通过 constructor 使用自动装配来连接，如果它不执行，Spring 尝试通过 byType 来自动装配。 |
+
+例如，在配置文件中，如果一个 bean 定义设置为自动装配 *byName*，并且它包含 *spellChecker* 属性（即，它有一个 *setSpellChecker(...)* 方法），那么 Spring 就会查找定义名为 *spellChecker* 的 bean，并且用它来设置这个属性。你仍然可以使用 <property> 标签连接其余的属性。
+
+这里是 **TextEditor.java** 文件的内容：
+
+```java
+package com.tutorialspoint;
+public class TextEditor {
+   private SpellChecker spellChecker;
+   private String name;
+   public void setSpellChecker( SpellChecker spellChecker ){
+      this.spellChecker = spellChecker;
+   }
+   public SpellChecker getSpellChecker() {
+      return spellChecker;
+   }
+   public void setName(String name) {
+      this.name = name;
+   }
+   public String getName() {
+      return name;
+   }
+   public void spellCheck() {
+      spellChecker.checkSpelling();
+   }
+}
+```
+
+下面是另一个依赖类文件 **SpellChecker.java** 的内容：
+
+```java
+package com.tutorialspoint;
+public class SpellChecker {
+   public SpellChecker() {
+      System.out.println("Inside SpellChecker constructor." );
+   }
+   public void checkSpelling() {
+      System.out.println("Inside checkSpelling." );
+   }   
+}
+```
+
+下面是 **MainApp.java** 文件的内容：
+
+```java
+package com.tutorialspoint;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+public class MainApp {
+   public static void main(String[] args) {
+      ApplicationContext context = 
+             new ClassPathXmlApplicationContext("Beans.xml");
+      TextEditor te = (TextEditor) context.getBean("textEditor");
+      te.spellCheck();
+   }
+}
+```
+
+下面是在正常情况下的配置文件 **Beans.xml** 文件：
+
+```java
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <!-- Definition for textEditor bean -->
+   <bean id="textEditor" class="com.tutorialspoint.TextEditor">
+       <property name="spellChecker" ref="spellChecker" />
+       <property name="name" value="Generic Text Editor" />
+   </bean>
+
+   <!-- Definition for spellChecker bean -->
+   <bean id="spellChecker" class="com.tutorialspoint.SpellChecker">
+   </bean>
+
+</beans>
+```
+
+但是，如果你要使用自动装配 “byName”，那么你的 XML 配置文件将成为如下：
+
+```java
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <!-- Definition for textEditor bean -->
+   <bean id="textEditor" class="com.tutorialspoint.TextEditor" 
+      autowire="byName">
+      <property name="name" value="Generic Text Editor" />
+   </bean>
+
+   <!-- Definition for spellChecker bean -->
+   <bean id="spellChecker" class="com.tutorialspoint.SpellChecker">
+   </bean>
+
+</beans>
+```
