@@ -245,9 +245,9 @@ categories:
 
 - scenic               adj.n
 
-- each has it own vibe
+- each has it own **vibe**
 
-- seals regularly seen sprawled out on sea rocks tend to be the star attractions
+- seals regularly seen **sprawled out** on sea rocks tend to be the star attractions
 
 
 
