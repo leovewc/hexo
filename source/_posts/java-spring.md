@@ -699,3 +699,8 @@ public class MovieRecommender {
 ```
 
 还有其他的例如将 `@Autowired` 注解添加到需要该类型数组的字段或方法，则 Spring 会从 `ApplicationContext` 中搜寻符合指定类型的所有 bean。当然容器`set`也可以
+
+### @Qualifier
+
+当你创建多个具有相同类型的 bean 时，并且想要用一个属性只为它们其中的一个进行装配，在这种情况下，你可以使用 `**@Qualifier**` 注解和 `**@Autowired** `注解通过指定哪一个真正的 bean 将会被装配来消除混乱。
+
