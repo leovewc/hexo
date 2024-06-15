@@ -586,3 +586,116 @@ public class MainApp {
 
 </beans>
 ```
+
+## 基于注解的配置
+
+spring 2.5
+
+在可以使用基于注解的连线之前，我们将需要在我们的 Spring 配置文件中启用它。所以如果你想在 Spring 应用程序中使用的任何注解，可以考虑到下面的配置文件。
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+   <context:annotation-config/>
+   <!-- bean definitions go here -->
+
+</beans>
+```
+
+| 序号 | 注解 & 描述                                                  |
+| ---- | ------------------------------------------------------------ |
+| 1    | [@Required](https://www.w3cschool.cn/wkspring/9sle1mmh.html)@Required 注解应用于 bean 属性的 setter 方法。 |
+| 2    | [@Autowired](https://www.w3cschool.cn/wkspring/rw2h1mmj.html)@Autowired 注解可以应用到 bean 属性的 setter 方法，非 setter 方法，构造函数和属性。 |
+| 3    | [@Qualifier](https://www.w3cschool.cn/wkspring/knqr1mm2.html)通过指定确切的将被连线的 bean，@Autowired 和 @Qualifier 注解可以用来删除混乱。 |
+| 4    | [JSR-250 Annotations](https://www.w3cschool.cn/wkspring/lmsq1mm4.html)Spring 支持 JSR-250 的基础的注解，其中包括了 @Resource，@PostConstruct 和 @PreDestroy 注解。 |
+
+### @Required
+
+它表明受影响的 bean 属性在配置时必须放在 XML 配置文件中，否则容器就会抛出一个 BeanInitializationException 异常。
+
+:underage:逆天了spring在 4.3以上的版本中就把Required废弃了
+
+### @Autowired
+
+使用 Spring 开发时，进行配置主要有两种方式，一是 xml 的方式，二是 java config 的方式。
+
+将 @Autowired 注解应用于构造函数,example:
+
+```java
+public class MovieRecommender {
+ 
+    private final CustomerPreferenceDao customerPreferenceDao;
+ 
+    @Autowired
+    public MovieRecommender(CustomerPreferenceDao customerPreferenceDao) {
+        this.customerPreferenceDao = customerPreferenceDao;
+    }
+ 
+    // ...
+}
+```
+
+将 @Autowired 注解应用于 setter 方法,example:
+
+```java
+public class SimpleMovieLister {
+ 
+    private MovieFinder movieFinder;
+ 
+    @Autowired
+    public void setMovieFinder(MovieFinder movieFinder) {
+        this.movieFinder = movieFinder;
+    }
+ 
+    // ...
+}
+```
+
+将 @Autowired 注解应用于具有任意名称和多个参数的方法:
+
+```java
+public class MovieRecommender {
+ 
+    private MovieCatalog movieCatalog;
+ 
+    private CustomerPreferenceDao customerPreferenceDao;
+ 
+    @Autowired
+    public void prepare(MovieCatalog movieCatalog,
+            CustomerPreferenceDao customerPreferenceDao) {
+        this.movieCatalog = movieCatalog;
+        this.customerPreferenceDao = customerPreferenceDao;
+    }
+ 
+    // ...
+}
+```
+
+也可以将 @Autowired 注解应用于字段，或者将其与构造函数混合，如以下示例所示:
+
+```java
+public class MovieRecommender {
+ 
+    private final CustomerPreferenceDao customerPreferenceDao;
+ 
+    @Autowired
+    private MovieCatalog movieCatalog;
+ 
+    @Autowired
+    public MovieRecommender(CustomerPreferenceDao customerPreferenceDao) {
+        this.customerPreferenceDao = customerPreferenceDao;
+    }
+ 
+    // ...
+
+```
+
+还有其他的例如将 `@Autowired` 注解添加到需要该类型数组的字段或方法，则 Spring 会从 `ApplicationContext` 中搜寻符合指定类型的所有 bean。当然容器`set`也可以
