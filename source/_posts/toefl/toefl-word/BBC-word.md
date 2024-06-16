@@ -274,11 +274,29 @@ categories:
 
 - “I say because **over-the-counter** fish oil is very seldom recommended, is in none of the guidelines from professional medical **societies**, and yet that’s what most people take, ” said Freeman. who was not involved in the study.
 
-  - prescription drugs  <>    over-the-counter drugs
+  - prescription drugs      <>    over-the-counter drugs
 
 - Biobank
 
 - a longitudinal study
 
-- 
+- Over-the-counter fish oil suffers from a lack of **purity** and consistency, as well as the potential **contaminants**^污染物^ and **heavy metals** such as **mercury**^Hg^ that come with fish, Freeman said.
+
+- Studies over the last 10 years have **not been very positive fo**r over-the-counter fish oil
+
+- Instead, **prescription** versions of fish oil, such as Vascepa and Lovaza, are used to **counter**^这里翻译为“对付”^ such risk factors such as high **triglycerides**^甘油三酯^. a type of blood fat, in people with cardiovascular disease risk, Freeman said.
+
+- buy buckets of fish oil pills to keep them well
+
+- the devil^魔鬼^ is in the details  细节决定成败
+
+- neurologist 神经科
+
+  - neurodegenerative diseases 神经退行性疾病
+
+- figure-prick tests 指尖刺压测试
+
+- sardines 沙丁鱼
+
+- breastmilk 母乳
 
