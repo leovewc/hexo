@@ -249,5 +249,19 @@ categories:
 
 - seals regularly seen **sprawled out** on sea rocks tend to be the star attractions
 
+# 3
 
+## Fish oil supplements may raise risk of stroke, heart issues, study suggests
+
+[visit](https://edition.cnn.com/2024/05/22/health/fish-oil-supplement-dangers-study-wellness/index.html)
+
+- As an excellent source of heart-healthy omega-3 **fatty acids**, daily fish oil supplements are a popular way to keep the risk of **cardiovascular** disease **at bay** ^保持控制^
+
+  - | Bay  |      |      |
+    | ---- | ---- | ---- |
+    |      |      |      |
+    |      |      |      |
+    |      |      |      |
+
+    
 
