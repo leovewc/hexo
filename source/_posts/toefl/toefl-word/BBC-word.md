@@ -257,11 +257,28 @@ categories:
 
 - As an excellent source of heart-healthy omega-3 **fatty acids**, daily fish oil supplements are a popular way to keep the risk of **cardiovascular** disease **at bay** ^保持控制^
 
-  - | Bay  |      |      |
-    | ---- | ---- | ---- |
-    |      |      |      |
-    |      |      |      |
-    |      |      |      |
+  - | Bay                              |              |                                            |
+    | -------------------------------- | ------------ | ------------------------------------------ |
+    | inlet<br />Cove<br />Gulf        | 海湾         |                                            |
+    | laurel                           | 月桂树       |                                            |
+    | prevent<br />ward off<br />deter | 阻止，控制   | keep at bay                                |
+    | Reddish-brown                    | 马的深红棕色 | bay horse                                  |
+    | Bark                             | 低沉的吠声   |                                            |
+    | Cornered                         | 迫使走投无路 | to be at bay<br />the soldiers were at bar |
 
-    
+- However, a new study finds regular use of fish oil supplements may increase, not reduce, the risk of first-time stroke and **atrial fibrillation** among people in good cardiovascular health.
+
+- Atrial fibrillation. also called AFib or AF, is a type of arrhythmia, or irregular heartbeat, that people often describe as a flutter or pounding in their chests.
+
+- cardiologist
+
+- “I say because **over-the-counter** fish oil is very seldom recommended, is in none of the guidelines from professional medical **societies**, and yet that’s what most people take, ” said Freeman. who was not involved in the study.
+
+  - prescription drugs  <>    over-the-counter drugs
+
+- Biobank
+
+- a longitudinal study
+
+- 
 
