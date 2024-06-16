@@ -115,30 +115,36 @@ categories:
 
 # fish
 
-1. Alaskan salmon
-
+1. Alaskan salmon   阿拉斯加三文鱼（鲑鱼）
    1. fortified 强化的，加营养的
-
-2. Cod
-
+2. Cod   鳕鱼
    1. phosphorus
    2. niacin 烟酸
    3. piccata sauce 肉酱
-
-3. Herring 
-
+3. Herring  鲱鱼
    1. sodium
    2. Mediterranean-style herring linguine
-
-4. Mahi-mahi
-
+4. Mahi-mahi   马哈鱼
    1. tropical
    2. dolphinfish   =  mahi-mahi      !=        mammal dolphin
    3. **blackened**^烤黑的^ mahi-mahi **tacos**^玉米卷^ with a **chipotle mayo**^墨西哥辣椒蛋黄酱^ 
-
-5. Mackerel
-
+5. Mackerel   鲭鱼
    1. Atlantic        !=          Atlantis
-   2. 
+6. Perch  鲈鱼
+   1. medium texture
+   2. flavorful panko breading  日式面包糠
+7. Rainbow trout 虹鳟鱼
+   1. abab bay **aquarium**^水族馆^
+8. Sardines 沙丁鱼
+   1. nutritious
+   2. topping  浇头vvvvv
+9. Striped bass  带鱼
+   1. a **firm yet flaky**^紧致但松弛^texture and is full of flavor	
+   2. bronzed sea bass with lemon shallot butter
+10. Tuna
+    1. canned 罐头
 
-   
+# Dish
+
+- Shredded Pork with Garlic, Ginger, Scallions, Wood Ear Mushrooms, Carrots, and Bell Peppers in a Sweet, Sour, and Spicy Sauce +
+
