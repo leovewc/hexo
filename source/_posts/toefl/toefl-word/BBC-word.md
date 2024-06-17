@@ -227,11 +227,11 @@ categories:
 
 - docker
 
-- more themes routes that dig deeper into events and the people who shaped places around the city are being created
+- more themes **routes** that dig deeper into events and the people who shaped places around the city are being created
 
 - open-air contemporary art gallery — a first its kind in Ireland
 
-- it follows a walking trail of 28 commissioned cutting-edge mural artworks dotted around the port town of ababab that celebrate its local characters, maritime culture and wildlife
+- it follows a walking trail of 28 commissioned cutting-edge mural artworks dotted around the port town of ababab that celebrate its local characters, **maritime culture** and wildlife
 
 - a short 2km walk from the docklands **spits me out** on Sandymount Beach into the middle the world’s only Unesco Biospere Reserve that includes a capital city — something that makes Dublin truly unique. Every year, nature **moves in** on the old port structures.
 
@@ -324,5 +324,11 @@ categories:
 - Serbia **barely had a touch of the ball** inside the opening 10 minutes, struggling to get to the game as England passed the ball between themselves **with ease**
 - England was similarly **dominant in possession** against Iceland in the final friendly before  the start of Euro 2024, but an insipid performance ended with the victory at Wembley
 - But Gareth Southgate’s side was playing with an obvious **vigor** in the early stages against Serbia, **snapping into challenges** and passing the ball around with purpose.
-- It wasn’t long before England took a deserved lead, as Bellingham timed his late run to perfection^ssfwanm d^ to get in front of his defender and head Bukayo Saka’s **deflected cross**^回传中^ past Predrag Rajkovic in the Serbia goal
+- It wasn’t long before England took a deserved lead, as Bellingham timed his late run to perfection^完美的前插时机^ to get in front of his defender and head Bukayo Saka’s **deflected cross**^回传中^ past Predrag Rajkovic in the Serbia goal.
+- gee up the England fans  
+- put the ball out for a throw-in
+- barge^驳船^  sb in the chest  用肩膀碰了sb的胸口
+- Much to the Serbian winger’s annoyance 
+- England was given a warning — if it needed one — of just how quickly the game can change when an error from Trent Alexander-Arnold gifted Aleksander Mitrovic possession, but the AI Hilal striker^前锋^ flashed his effort^shoot^ **a fraction wide of the post**^稍稍偏出边柱^
+- 
 
