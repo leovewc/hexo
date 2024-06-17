@@ -133,15 +133,15 @@ categories:
 6. Perch  鲈鱼
    1. medium texture
    2. flavorful panko breading  日式面包糠
-7. Rainbow trout 虹鳟鱼
+7. Rainbow trout 
    1. abab bay **aquarium**^水族馆^
-8. Sardines 沙丁鱼
+8. Sardines 
    1. nutritious
    2. topping  浇头vvvvv
-9. Striped bass  带鱼
+9. Striped bass  
    1. a **firm yet flaky**^紧致但松弛^texture and is full of flavor	
    2. bronzed sea bass with lemon shallot butter
-10. Tuna
+10. Tuna   
     1. canned 罐头
 
 # Dish
