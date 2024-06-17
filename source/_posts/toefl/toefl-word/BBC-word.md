@@ -8,6 +8,10 @@ categories:
 - [托福, 托福单词]
 ---
 
+[TOC]
+
+
+
 # 1
 
 ## Tesla investors back $56bn Musk pay deal
@@ -300,6 +304,8 @@ categories:
 
 - breastmilk 母乳
 
+  # 4
+
 ## Christian Eriksen scores goal for Denmark at Euro 2024, three years after suffering cardiac arrest at previous tournament
 
 [visit](https://edition.cnn.com/2024/06/16/sport/christian-eriksen-goal-denmark-euro-2024-cardiac-arrest-euro-2020-spt-intl/index.html)
@@ -330,5 +336,11 @@ categories:
 - barge^驳船^  sb in the chest  用肩膀碰了sb的胸口
 - Much to the Serbian winger’s annoyance 
 - England was given a warning — if it needed one — of just how quickly the game can change when an error from Trent Alexander-Arnold gifted Aleksander Mitrovic possession, but the AI Hilal striker^前锋^ flashed his effort^shoot^ **a fraction wide of the post**^稍稍偏出边柱^
-- 
+- That hairy moment aside
+- An extremely assured first half from England
+- made it 2-0
+- through on goal
+- cross the ball
+- The second half, however, was **decidedly** less comfortable for England. Serbia began to **grow into** the game and had England **pinned back** into its own **penalty box** for long periods, but a lack of any quality in attack meant **clear cut chances** were **few and far between**.
+- Harry Kane had the best chance of the second half but his **header** was brilliantly **tipped** onto the **crossbar** by Rajkovic, who celebrated his save **as though** he had own Euro 2024
 
