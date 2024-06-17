@@ -146,5 +146,5 @@ categories:
 
 # Dish
 
-- Shredded Pork with Garlic, Ginger, Scallions, Wood Ear Mushrooms, Carrots, and Bell Peppers in a Sweet, Sour, and Spicy Sauce +
+- **Shredded** Pork with Garlic, **Ginger**, **Scallions**, Wood Ear Mushrooms, Carrots, and Bell Peppers in a Sweet, Sour, and Spicy Sauce 
 

@@ -300,3 +300,29 @@ categories:
 
 - breastmilk 母乳
 
+## Christian Eriksen scores goal for Denmark at Euro 2024, three years after suffering cardiac arrest at previous tournament
+
+[visit](https://edition.cnn.com/2024/06/16/sport/christian-eriksen-goal-denmark-euro-2024-cardiac-arrest-euro-2020-spt-intl/index.html)
+
+- Eriksen **collapsed** on the **pitch** after suffering **cardiac arrest**
+- brilliant finish
+- lead against
+- taking Jonas Wind’s clever **back-heel**^回传^ **on his chest**^胸部停球^ before **volleying**^凌空抽射^ into the bottom corner
+- a huge grin plastered across his face — was in stark contrast to the distressing scenes at Euro 2020
+- arm-in-arm
+- trying to **shield**^防护^ him from the cameras and supporters in the **stands**^看台^
+- There was relief around the stadium — and around the word — when a **conscious**^清醒的^ Eriksen **waved**^挥手^ to the crowd as he was being **stretchered off**^担架抬出去^ the pitch
+- cardiac resuscitation
+- After receiving life-saving treatment on the pitch, Eriksen was subsequently **fitted** with an Implantable Cardioverter **Defibrillator** (ICD) device — a type of **pacemaker** intended to prevent fatal cardiac arrests by discharging a **jolt** to restore regular **heart rhythm**
+- midfielder 
+- contract    nv
+- Eriksen’s brush with death has made the midfielder remarkable philosophical and reflective about life and living
+- One of the first quotes I heard was that even you feel good, you’re going to feel bad, you’re going to feel good again. It’s just going to go up and down — time is your best friend.
+- build on Eriksen’s goal
+- deflected shot
+- England earned an **unconvincing**^难以置信的^ 1-0 win over Serbia thanks  to Jude Bellingham’s **first-half**^上半场^ **header** ^头球^
+- Serbia **barely had a touch of the ball** inside the opening 10 minutes, struggling to get to the game as England passed the ball between themselves **with ease**
+- England was similarly **dominant in possession** against Iceland in the final friendly before  the start of Euro 2024, but an insipid performance ended with the victory at Wembley
+- But Gareth Southgate’s side was playing with an obvious **vigor** in the early stages against Serbia, **snapping into challenges** and passing the ball around with purpose.
+- It wasn’t long before England took a deserved lead, as Bellingham timed his late run to perfection^ssfwanm d^ to get in front of his defender and head Bukayo Saka’s **deflected cross**^回传中^ past Predrag Rajkovic in the Serbia goal
+
