@@ -343,4 +343,12 @@ categories:
 - cross the ball
 - The second half, however, was **decidedly** less comfortable for England. Serbia began to **grow into** the game and had England **pinned back** into its own **penalty box** for long periods, but a lack of any quality in attack meant **clear cut chances** were **few and far between**.
 - Harry Kane had the best chance of the second half but his **header** was brilliantly **tipped** onto the **crossbar** by Rajkovic, who celebrated his save **as though** he had own Euro 2024
+- England goalkeeper Jordan Pickford had to be alert in the closing stages to **turn** Dusan Vlahovic **vicious** long-range **strike** over the **bar**, but that was the closest Serbia got to an **equalizer**.
+- swashbuckling in tournament football
+- inflatable plane
+- 10 German bombers
+- clash
+- pub
+- march     vn
+- 
 
