@@ -35,7 +35,7 @@ tags:
 
 ## 5
 
-- [ ] tofie
+- [x] tofie
 - [ ] 日本語
 - [ ] java
 - [x] 早起

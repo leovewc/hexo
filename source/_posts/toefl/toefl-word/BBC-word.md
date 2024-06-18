@@ -411,4 +411,14 @@ categories:
 
 - Romania, suddenly boasting a formidable sense of hop
 
+- The Tricololrii continued to frustrate Ukraine’s attacking frontline and soon scored its thrird
+
+- There was a flood of yellow at the **full-time whistle**, as Romania’s **bench** rushed onto the pitch to celebrate in front of the team’s **traveling fans**.
+
+- Russia launched its full scale invasion of the country in February 2022.
+
+- Russia troops
+
+- Ukraine’s players looked sheepish as they trudged of the pitch at the full-time
+
   
