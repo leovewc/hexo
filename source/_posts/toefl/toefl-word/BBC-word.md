@@ -350,5 +350,65 @@ categories:
 - clash
 - pub
 - march     vn
-- 
 
+# 5
+
+## Euro 2024: Kylian mbappe suffers bloody nose but leads France to narrow 1-0 victory against Austria
+
+[visit](https://edition.cnn.com/2024/06/17/sport/ukraine-romania-france-austria-euro-2024-spt-intl/index.html)
+
+- Real Madrid forward 
+
+- trademark speed and lightening quick footwork
+
+- inadvertently headed by avav
+
+- France continued to create chances **throughout the tie** but  failed to add to the lead — the best chance falling to Mbappe who could only **steer his shot wide** when faced with just the goalkeeper to beat
+
+- Les Bleus didn’t have it all their own way
+
+- interim manager
+
+- run out of ideas
+
+- bench
+
+- head down the tunnel with blood staining his shirt
+
+- vintage performance  以往的表现
+
+- resilient Austrian outfit
+
+- The game continued a trend at this year’s tournament, which has seen multiple **underdogs** provide real challenges against Europe’s supposed **powerhouses**.
+
+- the team boasting the higher quality talent eventually got over the line
+
+- Austria bids to kickstart its campaign against Poland
+
+- stage an upset 爆冷
+
+- Despite the array of attacking talent on the pitch for Belgium
+
+- Twice, though, striker Lukaku had the ball in the back of the net for Belgium but the video assistant referee (VAR) saved Slovakia on both occasions
+
+- narrow offside
+
+- in the build up
+
+- ride its luck at times
+
+- well-deserving
+
+- Ukraine suffered a disastrous start
+
+- superb strike
+
+- settled the exhilarating tie
+
+- It was all going to plan for Ukraine
+
+- let the powerful shot creep under his outstretched hand
+
+- Romania, suddenly boasting a formidable sense of hop
+
+  
