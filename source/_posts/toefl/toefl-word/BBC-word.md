@@ -421,4 +421,33 @@ categories:
 
 - Ukraine’s players looked sheepish as they trudged of the pitch at the full-time
 
+  # 6
   
+  ## ‘Dyson spheres’ were theorized as a way to detect alien life. Scientists say they’ve found potential evidence
+  
+  [visit](https://edition.cnn.com/2024/06/13/science/dyson-spheres-alien-life-evidence-scn/index.html)
+  
+  - Freeman Dyson **theorized** that **hypothetical** alien **megastructures** would give off **infrared radiation** and search for that byproduct would be a viable method for searching for **extraterrestrial** life.
+  - a shell made up of mirrors or solar panels that completely surrounds a star — harnessing all the energy it produces.
+  - take hold
+  - a loose collection or swarm of objects traveling on independent orbits around the star.
+  - a finding that’s attracting scrutiny and alternate theories.
+  - set out
+  - get rid of
+  - astronomy
+  - glow in the infrared
+  - conclusive evidence
+  - Among the natural causes that could explain the infrared glow are an unlucky alignment   in the observation, with a galaxy in the background overlapping with the star, planetary collisions creating debris, or the fact that the stars may be young and therefore still surrounded by disks of hot debris from which planets would later form.
+  - red dwarfs
+  - dimmer and smaller than our sun
+  - orbiting planets
+  - infrared anomalies
+  - a postdoctoral research fellow
+  - far beyond humanity’s grasp
+  - we should dismantle Jupiter
+  - contrary to the expectations of some that they might be an inevitable end-state of technological species’ expansion out into their solar system.
+  - bear his name
+  - Dyson showed that three competing quantum theories were actually the same theory —  he summarily ended the competition.
+  - Later, he applied his genius to areas of astronomy, cosmology, the extraterrestrial realm, and also the very real problem of nuclear proliferation here on planet Earth.
+  - a provocative and creative thinker
+  - 
