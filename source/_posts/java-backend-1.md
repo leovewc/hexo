@@ -32,6 +32,8 @@
 
 ## Spring Boot整合Mybatis
 
+具体的整合步骤请看[这个我的步骤](C:\Users\李坤\OneDrive\桌面\swe2209523  li kun\learn\leovewc\GitHub\leo_blog\hexo\source\_posts\spring boot integrate MyBatis-Plus.md)
+
 在**SpringBoot**的配置文件`pom.xml`中引入`Mybatis`的起步依赖
 
 ![捕获34.PNG](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c0dd5bcae5564b95bbe7eb9ec2c42cf8~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=832&h=256&s=33454&e=png&a=1&b=2c2c2c) 引入好配置后，就可以正常使用`Mybatis`了。
