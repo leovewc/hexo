@@ -86,6 +86,12 @@ tags:
 
 - [ ] tofie
 - [ ] 日本語
-- [ ] java
+- [x] java
 - [x] 早起
 
+## 13
+
+- [ ] tofie
+- [ ] 日本語
+- [x] java
+- [x] 早起
