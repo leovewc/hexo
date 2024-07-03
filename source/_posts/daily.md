@@ -128,5 +128,12 @@ tags:
 
 - [ ] tofie
 - [ ] 日本語
-- [ ] java
+- [x] python
 - [ ] 早起
+
+## 19
+
+- [ ] tofie
+- [ ] 日本語
+- [ ] java
+- [x] 早起
