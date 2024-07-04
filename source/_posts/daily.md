@@ -135,5 +135,12 @@ tags:
 
 - [ ] tofie
 - [ ] 日本語
-- [ ] java
+- [x] python
 - [x] 早起
+
+## 20
+
+- [ ] tofie
+- [ ] 日本語
+- [ ] python
+- [ ] 早起
