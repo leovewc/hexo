@@ -5,29 +5,31 @@ date: 2023-10-19 09:18:32
 tags:
 ---
 ## 指令
-```
+```mysql
 select student_ID,student_Name
 from student;
 where student_Name = 'Mary Lamb';
 ```
-```
+```mysql
 select distinct student_Name，student_Address//查找可以有重复的，比如同一个人但是住在不同的地方或者同名的人；不能查找unique的元素。
 from student;
 ```
-```match criteria
+```mysql
 select *
 from student
 where student_Mobile >111 and student_Age <18;
 ```
-not in('  ','  ');
-between 1 and 5;(1,2,3,4,5)
-in(1,5);(1,5)
+`not in('  ','  ')`;
+`between 1 and 5`;(1,2,3,4,5)
+`in(1,5)`;(1,5)
+
 ### %
-A% = A____  例如AHMAD;
-%A = ____A  例如SERA；
-%A% = _A____  例如 SEAR；
-A%A；
+`A%` = A____  例如AHMAD;
+`%A` = ____A  例如SERA；
+`%A%` = _A____  例如 SEAR；
+`A%A`；
 ...
+
 ```
 select *
 from student
@@ -39,18 +41,19 @@ where student_Name like 'L%K%';
 ### delete
 记得删除要加from;
 安全删除日志或单独的记录，可以复原，不删除表的关系等。而drop会删掉所有的并不能复原；
+
 ### concat 把两个column合在一起，只是查询临时放在一起
 ```
 select concat(student_ID,',',student_Name)as'student info'
 from student;
 ```
 ### add _ datetime null default now()
-```把当前时间加入到表 _ 中
+```mysql
 alter table student
 add student_time datetime null default now();
 ```
 ### insert 
-```
+```mysql
 insert into student
 (student_Name,student_Mobile,student_Email,student_ID)
 values
@@ -58,20 +61,20 @@ values
 select * from student
 order by student_ID;//显示顺序
 ```
-```加column
+```mysql
 alter table student
 add DOB date NULL;
 alter table student
 add AGE int null;
 ```
 然后设置一个DOB：
-```
+```mysql
 update student
 set DOB = '2020-03-14'
 where student_ID = 'xmus002';
 ```
 根据设置的DOB来自动计算人年龄：
-```
+```mysql
 update student
 set AGE =date_format(FROM_DAYS(DATEDIFF(NOW(),DOB)),'%Y') + 0
 where student_ID between 'xmus001' and 'xmus004';
@@ -83,7 +86,7 @@ create database shop;
 ```
 use shop;
 ```
-```
+```mysql
 create table customer
 (
 customerID varchar(10) not null primary key,
@@ -96,7 +99,7 @@ state varchar(20) null,
 MobileNo int null
 );
 ```
-```
+```mysql
 create table item
 (
 ItemID varchar(10) not null primary key,
@@ -105,7 +108,7 @@ Price decimal(10,2) null,
 Brand varchar(20) not null
 );
 ```
-```
+```mysql
 create table salesman
 (
 StaffID varchar(10) not null primary key,
@@ -114,7 +117,7 @@ WorkingDate date null,
 Salary decimal(10,2) null
 );
 ```
-```
+```mysql
 create table transaction
 (
 InvoiceNo int not null primary key,
@@ -128,7 +131,7 @@ Foreign Key fk_transaction_ItemID(ItemID) references item(ItemID),
 Foreign Key fk_transaction_StaffID(staffID) references salesman(staffID)
 );
 ```
-```
+```mysql
 insert into Customer
 (customerID, FirstName,LastName,DateofBirth,Street,City,state,MobileNo)
 values
@@ -140,7 +143,7 @@ values
 ('C006','Jimmy','Stone','2002-10-03','2nd Street','Shah Alam','Selangor','019224433'),
 ('C007','Justin','Timerlake','2015-06-04','2nd Street','Shah Alam','Selangor','019444333');
 ```
-```
+```mysql
 insert into Item
 (ItemID, ItemName,Price,Brand)
 values
@@ -156,7 +159,7 @@ values
 ('I010','Speaker','50','Huawei');
 select *from item;
 ```
-```
+```mysql
 insert into transaction
 (InvoiceNo,customeID,ItemID,StaffID,Quantity)
 values
@@ -173,7 +176,10 @@ values
 select *from transaction;
 ```
 以上全是准备工作，现在才是重点
-```1.  Write a query to display list of purchase item for customer ID (C001, C002).
+
+1. Write a query to display list of purchase item for customer ID (C001, C002).
+
+```mysql
 select * from Transaction
 where customeID IN('C001','C002');
 ```
@@ -288,6 +294,17 @@ where wokingdate >'2019-01-01' or skillID = 's001'; --大大的注意不能用ex
 ```
 总的来说，给列赋予别名时AS关键字是可选的，而且别名不需要用引号括起来。
 ### 第八周 Adding Jion Queries
+
+join = inner join + outer join
+
+outer join = left outer join + right outer join + full outer join
+
+left join = left outer join
+
+right join = right outer join
+
+full outer join = full join
+
 #### inner join
 ```找到members 和 register 的交集.跟以前不一样是要加例如member.前缀
 SELECT register.MemberID , members.firstName,
@@ -305,25 +322,115 @@ from membership inner join members on membership.type_name = members.type_name
 #### left join
 #### right join
 #### full join
+`users` 表包含用户信息：
+
+| user_id | name    |
+| ------- | ------- |
+| 1       | Alice   |
+| 2       | Bob     |
+| 3       | Charlie |
+
+`accounts` 表包含账户信息：
+
+| account_id | user_id | balance |
+| ---------- | ------- | ------- |
+| 101        | 1       | 500     |
+| 102        | 2       | 1000    |
+| 103        | 4       | 700     |
+
+#### Outer Join（外连接）
+
+因为外连接是一个总称，所以它包含了左外连接、右外连接和全外连接。
+
+
+
+join == inner join
+
+#### Left Join（左连接）
+
+返回左表（`users`）中的所有行，即使右表（`accounts`）中没有匹配的行。
+
+```
+sql复制代码SELECT users.user_id, users.name, accounts.account_id, accounts.balance
+FROM users
+LEFT JOIN accounts
+ON users.user_id = accounts.user_id;
+```
+
+结果：
+
+| user_id | name    | account_id | balance |
+| ------- | ------- | ---------- | ------- |
+| 1       | Alice   | 101        | 500     |
+| 2       | Bob     | 102        | 1000    |
+| 3       | Charlie | NULL       | NULL    |
+
+#### Right Join（右连接）
+
+返回右表（`accounts`）中的所有行，即使左表（`users`）中没有匹配的行。
+
+```
+sql复制代码SELECT users.user_id, users.name, accounts.account_id, accounts.balance
+FROM users
+RIGHT JOIN accounts
+ON users.user_id = accounts.user_id;
+```
+
+结果：
+
+| user_id | name  | account_id | balance |
+| ------- | ----- | ---------- | ------- |
+| 1       | Alice | 101        | 500     |
+| 2       | Bob   | 102        | 1000    |
+| NULL    | NULL  | 103        | 700     |
+
+#### Full Join（全连接）
+
+返回两个表中的所有行，无论是否匹配。
+
+```
+sql复制代码SELECT users.user_id, users.name, accounts.account_id, accounts.balance
+FROM users
+FULL JOIN accounts
+ON users.user_id = accounts.user_id;
+```
+
+结果：
+
+| user_id | name    | account_id | balance |
+| ------- | ------- | ---------- | ------- |
+| 1       | Alice   | 101        | 500     |
+| 2       | Bob     | 102        | 1000    |
+| 3       | Charlie | NULL       | NULL    |
+| NULL    | NULL    | 103        | 700     |
+
 !(){1.png}
+
 #### aggreate
 count, sum, min, max, average
-```
+```mysql
 select a,b,c,
 count(register.classid) as 'Total class',
 sum(class.price)as 'Total price'
 from member class join register on member.memberid = register.memberid
 group by register.memberid      --group 必不可少
 ```
+许多 SQL 数据库（如 MySQL）支持这种查询方式，其中 `member.a`, `member.b`, `member.c` 被隐式地包括在分组中，因为 `memberid` 是唯一标识每个会员的键。
+
+如果你使用的是严格要求 `GROUP BY` 子句中列的数据库（如 PostgreSQL），你可能需要在 `GROUP BY` 子句中明确列出所有选择的非聚合列：
+
+`GROUP BY     member.memberid,    member.a,    member.b,    member.c;`
+
 #### Mathematic calculation
+
 * / - +
-```
+```mysql
 sum(class.price)as"before discount",
 sum((1-membership.discout) * class.price)as "Total Amount"
 group by member.memberid;
 ```
 ### 9
-```
+```mysql
 select transaction.staffid, salesman.StaffName,
 count(transaction.itemid)'order number',
 sum(transaction.quantity)'total quantity',
@@ -333,9 +440,12 @@ from salesman  inner join transaction on salesman.staffid = transaction.staffid
 inner join item on item.itemid = transaction.itemid
 group by transaction.staffid;
 ```
+
+
 ### 10
+
 往已经有的table里加外键
-```
+```mysql
 alter table registration
 add foreign key (staffid)
 references staff(staffid);
@@ -356,7 +466,7 @@ registration and guest for Null values.
 9. Calculate the total salary for staff if they get 15% commission from the total sales.
 10. Calculate the age and working experience from guest and staff where age < 30 years old or working
 experience > 10.
-```
+```mysql
 select registration.guestid,
 concat(guest.firstname,'  ',guest.lastname) 'full name',
 concat(guest.street,' ,',guest.city,' ,',guest.state) 'mailing address',
@@ -366,20 +476,22 @@ inner join room on registration.roomid = room.roomid
 ```
 在后面加where guest.firsname like '%kun'； 会发现结果为空，empty output = no sharing data on selected condition;
 但是加 left outer
-```
+
+```mysql
 from guest left outer join registration on guest.guestid = registration.guestid
 left outer join room on registration.roomid = room.roomid
 where guest.firstname like 'j%' and guest.state = 'selangor';
 ```
 有的变成null了 这个意思是no data;
 再加：where registration.guestid is null; 出来的结果表示还没有订房间的客人；
-```
+```mysql
 select registration.guestid,
 concat(guest.firstname,'  ',guest.lastname)as 'full name',
 concat(guest.street,' ,',guest.city,' ,',guest.state) 'mailing address',
 sum(room.price*datediff(registration.checkout,registration.checkin))as 'total pay',
 ((100-membership.discount)/100) as 'total discount'
-from membership inner join guest on membership.type = guest.type
+from membership 
+inner join guest on membership.type = guest.type
 inner join registration on guest.guestid = registration.guestid
 inner join room on registration.roomid = room.roomid
 group by registration.guestid;
@@ -387,7 +499,7 @@ group by registration.guestid;
 ### 12
 触发器trigger
 {after, before}->{insert,update,delet}
-```
+```mysql
 create trigger before_update_salary
 before update on employee
 for each row
@@ -395,20 +507,20 @@ set new.salary = (new.hourly_pay *200);
 show triggers;
 ```
 然后写一个更新
-```
+```mysql
 update employee
 set hourly_pay = 35
 where employee_id = 1;
 select * from employee;
 ```
 设置另外一个表跟employee相关
-```
+```mysql
 update expense 
 set expnese_total = (select sum(salary) from employee)
 where expense_id = 'E01';
 select * from expense;
 ```
-```
+```mysql
 create trigger after_update_salary
 after update on employee
 for each row
@@ -419,7 +531,8 @@ show triggers;
 ```
 这样employee 表改变了expense 也会自动改（after); (expense 是 所有工资和）
 我们再加一个来自动算新加入员工的工资
-```
+
+```mysql
 create trigger before_insert_salary
 before insert on employee
 for each row
@@ -428,7 +541,7 @@ show triggers;
 
 ```
 这样我们插入新员工就不用salary一列了，但是之前的expense是要update才能更新的，如果是插入的话就不会触发update触发器；如果要一起自动改的话要写个afre_insert_salary的触发器
-```
+```mysql
 create trigger after_insert_salary
 after insert on employee
 for each row
@@ -438,7 +551,7 @@ where expense_id = 'E01';
 show triggers;
 ```
 接下来是delet,使用before_delet会使数据先存在archives表中（我们自己创建），然后删除，这个会触发update;
-```
+```mysql
 create table salary_archives(
 id int primary key auto_increment,               -- 自动生成id
 employee_id int,
@@ -449,7 +562,7 @@ deleted_time timestamp default now());           -- 学非了
 select * from salary_archives;
 ```
 然后是触发器(删除前）
-```
+```mysql
 create trigger before_delete_salary
 before delete on employee
 for each row
@@ -458,7 +571,7 @@ values(old.employee_id,old.first_name, old.hire_date,old.salary);
 show triggers;
 ```
 删除后
-```
+```mysql
 create trigger after_delete_salary
 after delete on employee
 for each row
@@ -472,25 +585,26 @@ show triggers;
 需要计算出价钱，用PurchaseMenu中的书购买数量 * Book中的书价钱;
 这用了两个表，需要inner join,但是trigger不能用inner join,所以要用一些特殊的：(select price from Book where Book_ID = New.Book_ID)或者用add on把price加入到purchaseMenu中然后用inner join, 但是这样的话
 之后我们加新的一行他就不会自动更新price但是totalAmount还会自动更新因为totalAmoint是通过Book表更新的,但是可以设置trigger来改进：
-```
+
+```mysql
 alter table purchaseMenu
 add Price decimal(10,2) null after quantity;
 update purchaseMenu
 innor join
 ```
 同一个表是 before update,不同表是 after update;
-```
+```mysql
 Update PurchaseMenu
 inner join Bool on PurchaseMenu.Book_ID = Book.Book_ID
 set TotalAmount = Book.Price * PurchaseMenu>Quantity
 ```
 然后有一个sales表
-```
+```mysql
 update sales
 set sales_total = (select sunm(TotalAmount) from PurchaseMenu)
 where sales_id = 'S01';
 ```
-```
+```mysql
 create trigger before_update_quantity
 before update on PurchaseMenu
 for each row
@@ -522,7 +636,7 @@ for each row
 update sales
 set new.TotalAmount= (select price from Book where Book_ID = new.Book_ID) * new.Quantity;
 show triggers;
-```   
+```
 接下来是delete但是我不想写了
 然后是加price给purchaseMenu之后设置trigger也不想写了
 考试会出一个after一个before,她刚刚说不考了。。
