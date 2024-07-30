@@ -18,15 +18,15 @@ categories:
 
 [visit](https://www.bbc.com/news/articles/cleezyxjv4jo)
 
-- firm’s legal headquarters to Texas
+- firm’s legal headquarters to Texas   法律总部
 
-- Hot damn
+- Hot damn 好极了
 
-- fiercely
+- fiercely  激烈
 
-- top-earning boss
+- top-earning boss  
 
-- managing partner
+- managing partner   
 
 - go forward
 
@@ -36,23 +36,23 @@ categories:
 
 - board^董事会^
 
-- in the January court ruling
+- in the January court ruling   法院裁决
 
-- rule
+- rule   裁决
 
 - deeply flawed^漏洞百出^
 
-- eye-popping
+- eye-popping   令人瞠目结舌
 
-- spark criticism
+- spark criticism   引发批评
 
-- on a regular basis
+- on a regular basis  定期
 
 - the sort of ^那种^
 
-- former general counsel
+- former general counsel   前法律顾问
 
-- former divorce attorney
+- former divorce attorney  前离婚律师
 
 - who was Musk’s former divorce attorney and whose admiration for Musk moved him to tears during his deposition
 
@@ -69,29 +69,29 @@ categories:
 
 - air concerns^引发关注^
 
-- rally 
+- rally   集会
 
-- fan base
+- fan base  粉丝群体
 
-- pay proposal
+- pay proposal  薪资提案
 
-- **ringing endorsement**
+- **ringing endorsement**  给与极大的认可
 
-- **compensation**
+- **compensation**  补偿
 
-- appreciation
+- appreciation   
 
 - impressive
 
 - ensure he remain dedicated to the company
 
-- stake
+- stake  股份
 
-- **disclose**
+- **disclose**   披露
 
-- **cast votes**
+- **cast votes** 股票
 
-- at Tesla of course he doesn’t do it all alone but he definitely sets the **agenda**, he sets the pace and he is a **relentless** person to work for, there is no doubt about that
+- at Tesla of course he doesn’t do it all alone but he definitely sets the **agenda**^议程^, he sets the pace and he is a **relentless** person to work for, there is no doubt about that
 
 # 2
 
@@ -99,31 +99,31 @@ categories:
 
 [visit](https://www.bbc.com/news/articles/c9rre6nwnpwo)
 
-- his tesla pay deal-…-which has now been backed by shareholders is 75% of the entire spending for schools in England in 2024-25(£60bn)and around a quarter of the budget for the NHS(£192bn)
+- his tesla pay deal-…-which has now been backed by^支持^ shareholders is 75% of the entire spending for schools in England in 2024-25(£60bn)and around a quarter of the budget for the NHS(£192bn)
 
-- to his many admirers, Mr Musk is worth every single cent which comes his way 这句话中的 comes his way 最好翻译成 他所获得的
+- to his many admirers^崇拜者^, Mr Musk is worth every single cent which comes his way 这句话中的 comes his way 最好翻译成 他所获得的
 
 - today the question is: would this portfolio have been as successful without him?
 
 - getting him stay put at Tesla
 
-- prior to 2018
+- prior to 2018  之前
 
-- there had been **speculation** about his future at the electric car maker
+- there had been **speculation** about his future at the electric car maker   猜测
 
-- milestone
+- milestone 
 
-- **underlying profit**
+- **underlying profit**   潜在利润
 
 - at that stage, he was hardly **digging down the back of sofa** for **loose change** given he was worth nearly $20bn, according to Forbes magazine’s rich list of 2018
 
-- the potential **payday** was **astronomical**
+- the potential **payday** was **astronomical**   天文数字
 
 - it has been **slid** back down to $570bn
 
 - profile = prof         !=               profit
 
-- when Tesla **wobbled** in 2022, it was said to because Mr Musk had **taken his eye off the ball** to concentrate on X — so it was his absence rather than his presence which caused a problem. Yet his profile clearly adds massive value to these firms
+- when Tesla **wobbled** in 2022, it was said to because Mr Musk had **taken his eye off the ball** to concentrate on X — so it was his absence rather than his presence which caused a problem. Yet his profile clearly adds massive value to these firms  动摇；
 
 - Mr Musk doesn’t believe in communicational teams, preferring instead to broadcast prolifically^大量的^ to his 187m followers directly on his social network
 
@@ -133,11 +133,11 @@ categories:
 
 - tariff^电费，电价，费率，关税^
 
-- enormous political **clout**
+- enormous political **clout**  影响力
 
 - livestream
 
-- he is fierce and demanding boss, a **workaholic** who **doesn’t take no for an answer**. Former employee say even the most dedicated among them **burn out**, while he does not
+- he is fierce and demanding boss, a **workaholic** who **doesn’t take no for an answer**. Former employee say even the most dedicated among them **burn out**, while he does not   
 
 - incredible leader
 
@@ -147,41 +147,39 @@ categories:
 
 - block the deal
 
-- restore his pay
+- restore his pay   恢复
 
-- **visionary**
+- **visionary**    有远见的
 
 - for all the successes under Mr Musk, there have also been failures
 
 - tweet^小鸟的鸣叫声,推文^ – twitter
 
-- for years Tesla didn’t make a profile at all, then a tweet about the company becoming private caused financial chaos, ending in a investigation by **regulators** resulting in him **standing down** as CEO
+- for years Tesla didn’t make a profile at all, then a tweet about the company becoming private caused financial chaos, ending in a investigation by **regulators** resulting in him **standing down** as CEO   监管机构；辞去
 
 - speaking out about safety concerns at Tesla cost them both their jobs and their professional reputations
 
 - go bankrupt
 
-- **malfunction**
+- **malfunction**    故障
 
-- **broken even financially**
+- **broken even financially**   财务上收支平衡
 
-- Bloomberg published a report suggesting that he had **underplayed** the huge cost of launching its satellite network infrastructure
+- Bloomberg published a report suggesting that he had **underplayed** the huge cost of launching its satellite network infrastructure   低估
 
-- **predisposed** to taking big shots
+- **predisposed** to taking big shots    倾向于冒更大的风险
 
 - if Mr Musk has been bruised^伤痕累累^ by failure, he doesn’t show it. He is outwardly loud^外表高调^, dominant^强势^ and defiant^挑衅，傲慢^
 
-- it is **emblazoned** with his  favourite  phrase “vox populei, vox dei”–the voice of the people is the voice of the God
+- it is **emblazoned** with his  favourite  phrase “vox populei, vox dei”–the voice of the people is the voice of the God   烙印
 
   ## The Irish city you should visit in 2024
 
   [visit](https://www.bbc.com/travel/article/20240614-dublin-the-irish-city-you-should-visit-in-2024)
 
-- Ireland’s **bustling** capital has been busy transforming the traveller experience, with fresh ideas put local people and culture heritage at its heart
+- Ireland’s **bustling** capital has been busy transforming the traveller experience, with fresh ideas put local people and culture heritage at its heart   繁忙的
 
-- Dublin
-
-- my first memories of Dublin are anchored^锚定，固定，主持，“源于”^ in its storied docklands
+- my first memories of Dublin are anchored^锚定，固定，主持，“源于”^ in its storied docklands  码头区
 
 - “two-up-two-down” redbrick **terraced** rows in Ringsend, the Dublin suburb 红砖排屋，两个房间在二楼，两个房间在一楼
 
@@ -189,11 +187,11 @@ categories:
 
 - every time i go back, **sense-of-belonging** **floodgates** **fling open** at first sight of the low-lying cityscape and **the way** it seemingly **drifts into** the calm shallows of its **wildlife-teeming**, **Unesco-listed** **Biospere Bay**. Strong emotions flow for a place I’m attached to but have never lived in.
 
-- **ingenious initiatives**
+- **ingenious initiatives **  巧妙的建议
 
-- a slew of
+- a slew of   一系列的
 
-- diaspora
+- diaspora   侨民
 
 - jumping into local life and feel what being Irish is all about
 
@@ -207,15 +205,15 @@ categories:
 
 - yet an **earthy** community spirit still **runs strong** through Ringsend’s desirable **old-meets-new** neighborhood 
 
-- gastro pubs
+- gastro pubs   餐吧
 
 - I’m warmed by **quintessential** Dubliner **quick-witted chat**(craic)
 
-- **autism**
+- **autism** 自闭症
 
 - visitors with **sensory processing differences** can enjoy the world’s leading tourist attention
 
-- lens
+- lens  镜头
 
 - barge sail the River Liffey
 
@@ -229,15 +227,15 @@ categories:
 
 - mutiny fame^哗变^
 
-- docker
+- docker  码头工人
 
 - more themes **routes** that dig deeper into events and the people who shaped places around the city are being created
 
 - open-air contemporary art gallery — a first its kind in Ireland
 
-- it follows a walking trail of 28 commissioned cutting-edge mural artworks dotted around the port town of ababab that celebrate its local characters, **maritime culture** and wildlife
+- it follows a walking trail of 28 commissioned cutting-edge mural artworks dotted around the port town of ababab that celebrate its local characters, **maritime culture** and wildlife  海事文化
 
-- a short 2km walk from the docklands **spits me out** on Sandymount Beach into the middle the world’s only Unesco Biospere Reserve that includes a capital city — something that makes Dublin truly unique. Every year, nature **moves in** on the old port structures.
+- a short 2km walk from the docklands **spits me out** on Sandymount Beach into the middle the world’s only Unesco Biospere Reserve that includes a capital city — something that makes Dublin truly unique. Every year, nature **moves in** on the old port structures.   
 
 - there are copious bird colonies on old mooring relics
 
